@@ -1,6 +1,6 @@
 # Telegram Data Clustering Contest Submission
 
-*by Andy and Nikita*
+*by [Andy](https://github.com/Andy671) and [Nikita](https://github.com/nick-baliesnyi)*
 
 ### Solution commentary
 
