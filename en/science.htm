@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://entry1228-dcround1.usercontent.dev/20200214/en/science/ -->
+<html class="h-100"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kooky Dragon ‐ Entry #1228 ‐ Data Clustering Contest</title>
+    <link rel="stylesheet" href="../resources/bootstrap.min.css" >
+    <script src="../resources/jquery-3.4.1.slim.min.js" ></script>
+    <script src="../resources/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="../resources/contest-zoo.css">
+    <style>.brand-photo{display:inline-block;width:40px;height:40px;margin:-.3125rem 0;text-align:center;vertical-align:top;overflow:hidden;}.brand-name{font-size:18px;line-height:16px;font-weight:500;vertical-align:top;margin:.125rem .25rem 0 1rem!important;}.brand-name small{display:inline-block;font-size:13px;font-weight:400;margin-top:.25rem;}.card-cover{width:180px;background:no-repeat center;background-size:cover;border-radius:0 .25rem .25rem 0;display:none;}.text-secondary{color:#6f42c1!important;}.text-truncate-3,.text-truncate-4,.text-truncate-5{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;}.text-truncate-3{-webkit-line-clamp:3;}.text-truncate-4{-webkit-line-clamp:4;}.text-truncate-5{-webkit-line-clamp:5;}.thread:not(:last-child){flex-grow:1;max-width:100%;}.thread.show{flex:0 0 100%;max-width:100%;}.thread.show .card-body{background-color:#f8f9fa!important;}.btn-outline-warning:hover{color:#fff;}.dropdown-toggle:after{margin-left:.5em;vertical-align:.15em;}</style>
+    <script>
+      $(document).on('show.bs.collapse', '.collapse', function () {
+        $(this).parents('.thread').addClass('show');
+      });
+      $(document).on('hidden.bs.collapse', '.collapse', function () {
+        $(this).parents('.thread').removeClass('show');
+      });
+    </script>
+  </head>
+  <body class="d-flex flex-column h-100" data-gr-c-s-loaded="true">
+    <header class="bg-light fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light px-0 px-sm-3">
+          <a class="navbar-brand py-0" href="https://entry1228-dcround1.usercontent.dev/20200214/en/">
+            <span class="brand-photo rounded-circle"><i class="animal-photo dragon bc7"></i></span><span class="brand-name d-none d-sm-inline-block"><div><span dir="auto" class="tc7">Kooky Dragon<span class="d-none d-md-inline"> News</span></span></div><small class="text-muted">Entry #1228</small></span>
+          </a>
+          <div class="dropdown flex-fill">
+            <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownDateButton" data-toggle="dropdown">14 Feb</button><div class="dropdown-menu">              <a class="dropdown-item disabled" href="https://entry1228-dcround1.usercontent.dev/20200214/en/">February, 14</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20200131/en/">January, 31</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20191209/en/">December, 9</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20191129/en/">November, 29</a>
+
+            </div>
+          </div>
+
+              <div class="btn-group btn-group-sm mx-2 mx-sm-3 mx-md-4">
+      <a class="btn btn-secondary" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/">EN</a>
+      <a class="btn btn-outline-secondary" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/science/">RU</a>
+    </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/">Top</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/threads/en/">Threads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/categories/en/">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/news/en/">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/languages/en.html">Languages</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <footer class="bg-light mt-auto py-2 fixed-bottom">
+      <div class="container">
+        <small class="text-muted">
+        <a href="https://data-static.usercontent.dev/DataClusteringDataset0214En.tar.gz" class="text-dark" download="">7548 english articles</a> processed in <b>19.282</b> seconds
+        <small class="mx-1 align-text-top">•</small>
+        <b>2.555</b> seconds per 1000 articles
+        <small class="mx-1 align-text-top">•</small>
+        <a href="https://entry1228-dcround1.usercontent.dev/20200214/en/output.txt" class="text-dark">raw output</a>
+        <small class="mx-1 align-text-top">•</small>
+        <a href="https://entry1228-dcround1.usercontent.dev/20200214/en/error_log.txt" class="text-dark">error log</a>
+
+        </small>
+      </div>
+    </footer>
+    <main class="flex-shrink-0 py-5">
+      <div class="container pt-2 pb-1">
+        <div class="mt-3 mb-3">
+          <nav class="nav nav-tabs">
+            <a class="ml-3 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/">Main</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/society/">Society</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/economy/">Economy</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/technology/">Technology</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/sports/">Sports</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/entertainment/">Entertainment</a>
+            <a class="ml-1 mr-1 nav-item nav-link active" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/">Science</a>
+            <a class="ml-1 mr-3 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/en/other/">Other</a>
+          </nav>
+        </div>
+
+        <div class="d-flex w-100 flex-wrap justify-content-between">
+          <h5 class="mb-3 mt-2">Science <small class="text-muted">29</small></h5>
+          <div class="mt-1">
+
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Amid coronavirus fears, a second wave of flu hits US kids</h5>
+                    <p class="card-text text-muted">14 Feb 17:39 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse">41  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Amid coronavirus fears, a second wave of flu hits US kids</h5>
+                          <p class="mb-1 text-truncate-4">A second wave of flu is hitting the U.S., turning this into one of the nastiest seasons for children in a decade.</p>
+                          <small class="text-muted text-muted">14 Feb 17:39 <small class="mx-1 align-text-top">•</small> WVLT <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/4089046911653149919.html" class="text-muted stretched-link">4089046911653149919.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China's Hubei province enacts 'wartime' measures as coronavirus count rises to 16,427</h5>
+                          <p class="mb-1 text-truncate-4">Coronavirus is continuing to spread throughout China and especially in the epicenter Hubei province, the World Health Organization said in a Friday update briefing on COVID-19. There are 47,505 laboratory-confirmed cases of COVID-19 throughout China with 1,381 deaths reported from the pneumonia-like illness it causes, including 121 deaths reported in the past day. Six of those who died were health care workers — "a critical piece of information" as WHO continues to investigate why even rigorous medical guidelines haven't stopped the spread, WHO reported Friday. A total of 1,716 health care workers in China have contracted COVID-19 despite WHO's guidelines, so this weekend, a team of 12 international and WHO experts will arrive in China to meet with local medical professionals for a "joint mission." The experts will particularly look at disease transmission and response measures to see how processes for health care workers, who "are working with virtually no sleep in difficult conditions," can be improved, WHO…</p>
+                          <small class="text-muted text-muted">14 Feb 17:30 <small class="mx-1 align-text-top">•</small> The Week <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/149215355966248229.html" class="text-muted stretched-link">149215355966248229.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China's Hubei province enacts 'wartime' measures as coronavirus count rises to 16,427</h5>
+                          <p class="mb-1 text-truncate-4">Coronavirus is continuing to spread throughout China and especially in the epicenter Hubei province, the World Health Organization said in a Friday update briefing on COVID-19.There are 47,505 laboratory-confirmed cases of COVID-19 throughout China with 1,381 deaths reported from the pneumonia-like illness</p>
+                          <small class="text-muted text-muted">14 Feb 17:30 <small class="mx-1 align-text-top">•</small> Yahoo <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/7097669638205919044.html" class="text-muted stretched-link">7097669638205919044.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">44 states, NYC, Puerto Rico report high flu activity, CDC says</h5>
+                          <p class="mb-1 text-truncate-4">As many as 26 million Americans have been sickened with the virus so far this winter season, though deaths from influenza or pneumonia have remained below the threshold for an epidemic.</p>
+                          <small class="text-muted text-muted">14 Feb 17:18 <small class="mx-1 align-text-top">•</small> UPI <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/8257973865247677430.html" class="text-muted stretched-link">8257973865247677430.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China Reports 6 Health Workers Dead and 1,716 Sickened by Coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">Health officials in China announced on Friday that the new coronavirus has sickened at least 1,716 health care workers and killed six. Roughly 87 per cent of those health workers infected with COVID-19 were in Hubei province, the epicentre of the outbreak, according to Chinese state media outlet China Daily.</p>
+                          <small class="text-muted text-muted">14 Feb 17:00 <small class="mx-1 align-text-top">•</small> Gizmodo UK <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/8363059000537063788.html" class="text-muted stretched-link">8363059000537063788.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Deaths from dengue fever in Paraguay spike to 16 under strained health system</h5>
+                          <p class="mb-1 text-truncate-4">ASUNCION (Reuters) - Paraguay health officials said on Friday that deaths from dengue fever increased to 16 in the South American country’s worst outbreak of the disease in the last decade, severely straining its health system.</p>
+                          <small class="text-muted text-muted">14 Feb 16:22 <small class="mx-1 align-text-top">•</small> Reuters <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/8334514180886388116.html" class="text-muted stretched-link">8334514180886388116.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China’s coronavirus death toll rises to 1,380</h5>
+                          <p class="mb-1 text-truncate-4">Hits 1,700 health workers, and takes total number of infected to 63,851</p>
+                          <small class="text-muted text-muted">14 Feb 16:14 <small class="mx-1 align-text-top">•</small> BusinessLine <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/5283600580403808.html" class="text-muted stretched-link">5283600580403808.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus infects more than 64,000 people globally: List of cases, countries</h5>
+                          <p class="mb-1 text-truncate-4">In Mainland China, 1,380 deaths have been reported among 63,851 cases, mostly in the central province of Hubei. Here are list of coronavirus cases in countries around the world.</p>
+                          <small class="text-muted text-muted">14 Feb 15:41 <small class="mx-1 align-text-top">•</small> India Today <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/4286117814168181660.html" class="text-muted stretched-link">4286117814168181660.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">More Chinese medical staff infected with coronavirus as death toll rises</h5>
+                          <p class="mb-1 text-truncate-4">Amid concerns about shortages of protective equipment, more than 1,700 Chinese medical workers have been infected by the new coronavirus since the outbreak...</p>
+                          <small class="text-muted text-muted">14 Feb 15:32 <small class="mx-1 align-text-top">•</small> DAILY SABAH <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/8383944809925653078.html" class="text-muted stretched-link">8383944809925653078.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Covid-19 hits Chinese health workers as economy limps back to life</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING, Feb 14 — The new coronavirus has infected 1,700 Chinese health workers and killed six, authorities said today, as businesses struggled to balance containment measures with a return from an extended post-holiday break. Authorities reported 5,090 new cases in mainland China, including more...</p>
+                          <small class="text-muted text-muted">14 Feb 15:27 <small class="mx-1 align-text-top">•</small> Malaymail <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/302165936272372569.html" class="text-muted stretched-link">302165936272372569.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China says 6 health workers died from coronavirus, 1,716 infected</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING:&nbsp;Six health workers have died from the new coronavirus in China and more than 1,700 have been infected, health officials said Friday (Feb ...</p>
+                          <small class="text-muted text-muted">14 Feb 15:24 <small class="mx-1 align-text-top">•</small> CNA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/5644198864245843541.html" class="text-muted stretched-link">5644198864245843541.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus infects more than 1,700 health workers in China, 6 die</h5>
+                          <p class="mb-1 text-truncate-4">More than 1,700 Chinese medical workers have been infected by the new virus that has killed nearly 1,400 people and spread to other parts of Asia and as far as the US and Europe.</p>
+                          <small class="text-muted text-muted">14 Feb 15:13 <small class="mx-1 align-text-top">•</small> India Today <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/4286117812388174431.html" class="text-muted stretched-link">4286117812388174431.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">What you need to know about that mysterious Chinese coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">2019-nCoV, a never-before-seen coronavirus discovered in China is spreading. How worried should you be?</p>
+                          <small class="text-muted text-muted">14 Feb 15:13 <small class="mx-1 align-text-top">•</small> mnn <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/1276819565366622100.html" class="text-muted stretched-link">1276819565366622100.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China says 6 health workers died from virus, 1,716 infected</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING: Six health workers have died from the new coronavirus in China and more than 1,700 have been infected, health officials said Friday, underscoring the risks doctors and nurses have taken due to shortages of protective gear.</p>
+                          <small class="text-muted text-muted">14 Feb 15:01 <small class="mx-1 align-text-top">•</small> NST Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/3702929170248226410.html" class="text-muted stretched-link">3702929170248226410.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Virus Toll Jumps, With 5,090 New Cases Thursday</h5>
+                          <p class="mb-1 text-truncate-4">China on Friday reported another sharp rise in the number of people infected with the coronavirus, as the death toll neared 1,400.</p>
+                          <small class="text-muted text-muted">14 Feb 14:02 <small class="mx-1 align-text-top">•</small> Courthouse News Service <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/1799505150429635422.html" class="text-muted stretched-link">1799505150429635422.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">New virus has infected more than 67,000 people globally</h5>
+                          <p class="mb-1 text-truncate-4">A viral outbreak that began in China has infected more than 67,000 people globally. The World Health Organization has named the illness COVID-19, referring to its origin late last year and the coronavirus that causes it. The latest figures reported by each government’s health authority as of Saturday in Beijing: — Mainland China: 1,523 deaths …</p>
+                          <small class="text-muted text-muted">14 Feb 13:34 <small class="mx-1 align-text-top">•</small> City NEWS 1130 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/5858657119443392739.html" class="text-muted stretched-link">5858657119443392739.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus death toll nears 1,400, six health workers among victims</h5>
+                          <p class="mb-1 text-truncate-4">The health emergency in China has caused fears of more global contagion, with more than two-dozen countries reporting hundreds of cases among them. Three people have died outside mainland China.</p>
+                          <small class="text-muted text-muted">14 Feb 13:20 <small class="mx-1 align-text-top">•</small> Saudi Gazette <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/6913978434228911385.html" class="text-muted stretched-link">6913978434228911385.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hundreds of health workers infected by coronavirus in China</h5>
+                          <p class="mb-1 text-truncate-4">Six of the workers have died, the National Health Commission said.</p>
+                          <small class="text-muted text-muted">14 Feb 13:18 <small class="mx-1 align-text-top">•</small> Express &amp; Star <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/7324224460640571223.html" class="text-muted stretched-link">7324224460640571223.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">New virus has infected more than 64,000 people globally</h5>
+                          <p class="mb-1 text-truncate-4">A viral outbreak that began in China has infected more than 64,000 people globally. The World Health Organization has named the illness COVID-19, referring to its origin late last year and the coronavirus that causes it.The latest figures reported by each government's health authority as of Friday in Beijing:— Mainland China: 1,380 deaths among 63,851 cases, mostly in the central province of Hubei.— Hong Kong: 56 cases, 1 death— Macao: 10— Japan: 259, including 218 from a cruise ship docked in Yokohama, 1 death— Singapore: 67— Thailand: 33— South Korea: 28— Malaysia: 19— Taiwan: 18— Vietnam: 16— Germany: 16— United States: 1</p>
+                          <small class="text-muted text-muted">14 Feb 13:10 <small class="mx-1 align-text-top">•</small> THE OKLAHOMAN <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/7193318760591296743.html" class="text-muted stretched-link">7193318760591296743.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus cases surge for 2nd day after China revises diagnosis criteria</h5>
+                          <p class="mb-1 text-truncate-4">China on Friday confirmed another 5,090 coronavirus infections, and 121 more deaths, bringing the death toll near 1,400, according to The Associated Press. The country has seen a surge in new cases for the last two days since health authorities in Hubei province, the epicenter of the outbreak, changed the way they identify infections, with most of the new cases based on a physician's diagnosis before lab results come back. The surge in confirmed cases has dampened hope that the spread of the flu-like virus was slowing, but health experts say the higher numbers are partly due to the new methodology. "I suspect but can't be certain that the underlying trend is still downwards," said Paul Hunter, a professor of health protection at the University of East Anglia in England. Harold Maass</p>
+                          <small class="text-muted text-muted">14 Feb 12:32 <small class="mx-1 align-text-top">•</small> The Week <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/149215356295243369.html" class="text-muted stretched-link">149215356295243369.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China Reports 6 Health Workers Dead and 1,716 Sickened by Coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">Health officials in China announced on Friday that the new coronavirus has sickened at least 1,716 health care workers and killed six. Roughly 87 percent of those health workers infected with COVID-19 were in Hubei province, the epicenter of the outbreak, according to Chinese state media outlet China Daily.</p>
+                          <small class="text-muted text-muted">14 Feb 12:30 <small class="mx-1 align-text-top">•</small> Gizmodo <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/461714589255730485.html" class="text-muted stretched-link">461714589255730485.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus death toll nears 1,400, six health workers among victims</h5>
+                          <p class="mb-1 text-truncate-4">The death toll from China's virus epidemic neared 1,400 on Friday with six medical workers among the victims, underscoring the country's struggle to contain a deepening health crisis.</p>
+                          <small class="text-muted text-muted">14 Feb 12:19 <small class="mx-1 align-text-top">•</small> The Guardian <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/7580308505105500320.html" class="text-muted stretched-link">7580308505105500320.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Still rising</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING — The death toll from China’s virus epidemic neared 1,400 on Friday, as the United States complained of a “lack of transparency” from Beijing over its handling of a crisis that has fuelled global panic.</p>
+                          <small class="text-muted text-muted">14 Feb 12:12 <small class="mx-1 align-text-top">•</small> Journal Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/6375127392834732412.html" class="text-muted stretched-link">6375127392834732412.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">COVID-19 updates: 1,700 heath workers infected, first fatality in Japan</h5>
+                          <p class="mb-1 text-truncate-4">As more 'wartime' measures are implemented, here is the latest.</p>
+                          <small class="text-muted text-muted">14 Feb 12:12 <small class="mx-1 align-text-top">•</small> euronews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/7318238122193712650.html" class="text-muted stretched-link">7318238122193712650.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">More than 1,700 medical workers in China infected with coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">More than 1,700 medical workers in China have been infected with the new coronavirus, and six have died, medical authorities have said.</p>
+                          <small class="text-muted text-muted">14 Feb 11:44 <small class="mx-1 align-text-top">•</small> Vanguard News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/4125100339866212767.html" class="text-muted stretched-link">4125100339866212767.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China coronavirus death toll nears 1,400</h5>
+                          <p class="mb-1 text-truncate-4">China reports 5,090 new coronavirus cases in mainland, 121 new deaths</p>
+                          <small class="text-muted text-muted">14 Feb 11:17 <small class="mx-1 align-text-top">•</small> Dunya News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/5863268918394696033.html" class="text-muted stretched-link">5863268918394696033.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China says 6 medics died from virus</h5>
+                          <p class="mb-1 text-truncate-4">Report underscores risks doctors and nurses have taken due to shortages of protective gear.</p>
+                          <small class="text-muted text-muted">14 Feb 10:59 <small class="mx-1 align-text-top">•</small> Daily Nation <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/7421817125500530162.html" class="text-muted stretched-link">7421817125500530162.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus death toll in China reaches 1,380, confirmed cases near 64,000</h5>
+                          <p class="mb-1 text-truncate-4">The new strain of coronavirus originated in the Chinese city of Wuhan and has since then spread to several countries across the world, including India</p>
+                          <small class="text-muted text-muted">14 Feb 10:56 <small class="mx-1 align-text-top">•</small> mid-day <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6119021830185666158.html" class="text-muted stretched-link">6119021830185666158.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus infects 1,716 medical staff as China reports 5,090 new cases – media</h5>
+                          <p class="mb-1 text-truncate-4">The National Health Commission said 121 new deaths were reported, making the death toll on the mainland 1,380.</p>
+                          <small class="text-muted text-muted">14 Feb 10:43 <small class="mx-1 align-text-top">•</small> UNIAN <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6863008971116379372.html" class="text-muted stretched-link">6863008971116379372.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus death toll nears 1,400; US bemoans 'lack of transparency'</h5>
+                          <p class="mb-1 text-truncate-4">Nearly 64,000 people are now recorded as having been made ill by the virus in China.</p>
+                          <small class="text-muted text-muted">14 Feb 10:37 <small class="mx-1 align-text-top">•</small> DAWN.COM <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/4500271766860508685.html" class="text-muted stretched-link">4500271766860508685.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China says 6 health workers died from virus, 1,716 infected</h5>
+                          <p class="mb-1 text-truncate-4">Six health workers have died from the new coronavirus in China and more than 1,700 have been infected, health officials said Friday, underscoring the risks doctors and nurses have taken due to shortages of protective gear.</p>
+                          <small class="text-muted text-muted">14 Feb 10:28 <small class="mx-1 align-text-top">•</small> The Guardian <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/7580308505195651407.html" class="text-muted stretched-link">7580308505195651407.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus death toll nears 1,400 in China, with 5,090 new cases</h5>
+                          <p class="mb-1 text-truncate-4">The number of reported cases has been rising more quickly after the hardest-hit province changed its method of counting them Thursday.</p>
+                          <small class="text-muted text-muted">14 Feb 09:51 <small class="mx-1 align-text-top">•</small> The New Indian Express <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/4718288654067094488.html" class="text-muted stretched-link">4718288654067094488.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Gilead drug prevents type of coronavirus in monkeys, raising hope for China trials</h5>
+                          <p class="mb-1 text-truncate-4">An experimental Gilead Sciences antiviral drug prevented disease and reduced the severity of symptoms in monkeys infected with Middle East respiratory synd</p>
+                          <small class="text-muted text-muted">14 Feb 09:48 <small class="mx-1 align-text-top">•</small> The Japan Times <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6673764368028743443.html" class="text-muted stretched-link">6673764368028743443.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Virus death toll nears 1,400 in China, with 5,090 new cases</h5>
+                          <p class="mb-1 text-truncate-4">Japan now has 252 confirmed cases, including 218 from a cruise ship that has been quarantined in Yokohama.</p>
+                          <small class="text-muted text-muted">14 Feb 09:39 <small class="mx-1 align-text-top">•</small> An-Nahar <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/2220466264099714147.html" class="text-muted stretched-link">2220466264099714147.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Is China Underreporting Coronavirus Figures? 6 Health Workers Died, 1,716 Infected</h5>
+                          <p class="mb-1 text-truncate-4">Didn't China understand that the health workers are at greater risk? What measures did it take?</p>
+                          <small class="text-muted text-muted">14 Feb 09:21 <small class="mx-1 align-text-top">•</small> India News, Breaking News, Entertainment News | India.com <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/7150386083984012649.html" class="text-muted stretched-link">7150386083984012649.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Vaccine scare: Threat to global health</h5>
+                          <p class="mb-1 text-truncate-4">THE Dengvaxia incident last 2017 which killed eight children had caused serious trauma to families of victims, scared other people and resulted in lost of confidence in vaccines. With the reemergence of some deadly diseases in the country like polio, tuberculosis and measles, the public is facing an infectious disease crisis with the recent outbreak of corona virus or COVID-19.</p>
+                          <small class="text-muted text-muted">14 Feb 09:15 <small class="mx-1 align-text-top">•</small> Journal Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6375127392101352745.html" class="text-muted stretched-link">6375127392101352745.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Covid-19 deaths hit 1,400 in China, new cases at 5,090</h5>
+                          <p class="mb-1 text-truncate-4">The National Health Commission said 121 more people had died and there were 5,090 new confirmed cases</p>
+                          <small class="text-muted text-muted">14 Feb 09:15 <small class="mx-1 align-text-top">•</small> Deccan Chronicle <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/7881006363522500210.html" class="text-muted stretched-link">7881006363522500210.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus death toll nears 1,500 but new cases fall</h5>
+                          <p class="mb-1 text-truncate-4">The death toll from China's coronavirus epidemic rose to 1,483 on Friday but the number of new infections in hard-hit Hubei province fell after a change in case definitions caused a massive increase the previous day.</p>
+                          <small class="text-muted text-muted">14 Feb 08:58 <small class="mx-1 align-text-top">•</small> The Jakarta Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/7678601103348258671.html" class="text-muted stretched-link">7678601103348258671.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China Covid-19 death toll nears 1,500; over 64,000 infections</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING: The death toll from China’s Covid-19 coronavirus epidemic rose to 1,483 on Friday, but the number of new infections in hard-hit Hubei province fell after a change in case definitions caused a massive increase the previous day.</p>
+                          <small class="text-muted text-muted">14 Feb 08:38 <small class="mx-1 align-text-top">•</small> NST Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3702929171624396592.html" class="text-muted stretched-link">3702929171624396592.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China reports 121 new coronavirus deaths, more than 5,000 new cases</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING: The death toll from a coronavirus outbreak rose by 121 in mainland China, the national health commission said on Friday (Feb 14). The ...</p>
+                          <small class="text-muted text-muted">14 Feb 08:20 <small class="mx-1 align-text-top">•</small> CNA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/5644198862545053371.html" class="text-muted stretched-link">5644198862545053371.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China says 1,716 health workers infected by coronavirus, six dead</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING (Reuters) - A senior Chinese health official said on Friday 1,716 health workers have been infected by the coronavirus and six of them have died.</p>
+                          <small class="text-muted text-muted">14 Feb 08:15 <small class="mx-1 align-text-top">•</small> Reuters <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/8334514180560577316.html" class="text-muted stretched-link">8334514180560577316.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Artificial intelligence ‘could prevent disease’</h5>
+                    <p class="card-text text-muted">14 Feb 17:58 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse1">15  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse1">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Artificial intelligence ‘could prevent disease’</h5>
+                          <p class="mb-1 text-truncate-4">Experts have been looking at whether technology can be used to predict conditions early enough for effective treatment.</p>
+                          <small class="text-muted text-muted">14 Feb 17:58 <small class="mx-1 align-text-top">•</small> Jersey Evening Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/6141642774287821130.html" class="text-muted stretched-link">6141642774287821130.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Artificial intelligence ‘could prevent disease’</h5>
+                          <p class="mb-1 text-truncate-4">Experts have been looking at whether technology can be used to predict conditions early enough for effective treatment.</p>
+                          <small class="text-muted text-muted">14 Feb 17:58 <small class="mx-1 align-text-top">•</small> Shropshire Star <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/3480199992206240074.html" class="text-muted stretched-link">3480199992206240074.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Artificial intelligence ‘could prevent disease’</h5>
+                          <p class="mb-1 text-truncate-4">Experts have been looking at whether technology can be used to predict conditions early enough for effective treatment.</p>
+                          <small class="text-muted text-muted">14 Feb 17:58 <small class="mx-1 align-text-top">•</small> Express &amp; Star <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/7324224459752417610.html" class="text-muted stretched-link">7324224459752417610.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Artificial intelligence ‘could prevent disease'</h5>
+                          <p class="mb-1 text-truncate-4">Experts have been looking at whether technology can be used to predict conditions early enough for effective treatment.</p>
+                          <small class="text-muted text-muted">14 Feb 17:56 <small class="mx-1 align-text-top">•</small> The Irish News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/993067137449042.html" class="text-muted stretched-link">993067137449042.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Scientists detect ‘ghost’ DNA from mysterious human species</h5>
+                          <p class="mb-1 text-truncate-4">WASHINGTON – Scientists examining the genomes of West Africans have detected signs that a mysterious extinct human species interbred with our own species tens of thousands of years ago in</p>
+                          <small class="text-muted text-muted">14 Feb 17:46 <small class="mx-1 align-text-top">•</small> New York Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/7654946769308190749.html" class="text-muted stretched-link">7654946769308190749.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">New research: Climate change could reduce lifespan among hundreds of species</h5>
+                          <p class="mb-1 text-truncate-4">Researchers from Queen's University Belfast and Tel Aviv University in Israel have carried out one of the most comprehensive studies to date to better understand what affects life expectancy among all ...</p>
+                          <small class="text-muted text-muted">14 Feb 15:40 <small class="mx-1 align-text-top">•</small> phys.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/3476726124156302011.html" class="text-muted stretched-link">3476726124156302011.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">1 in 3 plants and animals could be extinct in 50 years</h5>
+                          <p class="mb-1 text-truncate-4">Unless global warming declines, extinction is in store for as many as one-third of Earth's species of plants and animals worldwide.</p>
+                          <small class="text-muted text-muted">14 Feb 14:04 <small class="mx-1 align-text-top">•</small> Futurity <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/5051862824227988717.html" class="text-muted stretched-link">5051862824227988717.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Scientists Identify Genes from ‘Ghost Population’ of Ancient Humans</h5>
+                          <p class="mb-1 text-truncate-4">This site may earn affiliate commissions from the links on this page. Terms of use.</p>
+                          <small class="text-muted text-muted">14 Feb 12:30 <small class="mx-1 align-text-top">•</small> Extremetech <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/653399568468814895.html" class="text-muted stretched-link">653399568468814895.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Study finds no advantage in using two antibiotics to treat MRSA infections</h5>
+                          <p class="mb-1 text-truncate-4">A world-first clinical trial has called into question the effectiveness of using more than one antibiotic to treat the deadly 'super-bug', Methicillin-resistant staphylococcus aureus Bacteremia, commonly known as Golden Staph.</p>
+                          <small class="text-muted text-muted">14 Feb 11:46 <small class="mx-1 align-text-top">•</small> News-Medical.net <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/4522523030680195554.html" class="text-muted stretched-link">4522523030680195554.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">'Ghost' ancestors: African DNA study detects mysterious extinct human species</h5>
+                          <p class="mb-1 text-truncate-4">Homo sapiens first appeared a bit more than 300,000 years ago in Africa and later spread worldwide, encountering other human species in Eurasia that have since gone extinct including the Neanderthals and the lesser-known Denisovans.</p>
+                          <small class="text-muted text-muted">14 Feb 10:48 <small class="mx-1 align-text-top">•</small> Deccan Herald <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/2027555797584096677.html" class="text-muted stretched-link">2027555797584096677.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Mysterious 'ghost population' of ancient humans discovered in African DNA</h5>
+                          <p class="mb-1 text-truncate-4">Scientists examining the genomes of West Africans have detected signs that a mysterious extinct human species interbred with our own species tens of...</p>
+                          <small class="text-muted text-muted">14 Feb 08:17 <small class="mx-1 align-text-top">•</small> DAILY SABAH <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/8383944808415415621.html" class="text-muted stretched-link">8383944808415415621.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Climate change could cut lifespan of cold-blooded species – study</h5>
+                          <p class="mb-1 text-truncate-4">Scientists say their findings suggest global warming could have a huge impact on the life expectancy of some animals.</p>
+                          <small class="text-muted text-muted">14 Feb 08:04 <small class="mx-1 align-text-top">•</small> Jersey Evening Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/6141642773380053318.html" class="text-muted stretched-link">6141642773380053318.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Climate change could cut lifespan of cold-blooded species – study</h5>
+                          <p class="mb-1 text-truncate-4">Scientists say their findings suggest global warming could have a huge impact on the life expectancy of some animals.</p>
+                          <small class="text-muted text-muted">14 Feb 08:02 <small class="mx-1 align-text-top">•</small> Shropshire Star <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3480199991298472262.html" class="text-muted stretched-link">3480199991298472262.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Climate change could cut lifespan of cold-blooded species – study</h5>
+                          <p class="mb-1 text-truncate-4">Scientists say their findings suggest global warming could have a huge impact on the life expectancy of some animals.</p>
+                          <small class="text-muted text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> The Irish News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/993066805933402.html" class="text-muted stretched-link">993066805933402.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Climate change could reduce life-spans of hundreds of species</h5>
+                          <p class="mb-1 text-truncate-4">Aging in cold-blooded organisms such as amphibians linked to high temperatures</p>
+                          <small class="text-muted text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> The Irish Times <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/8204772967495266173.html" class="text-muted stretched-link">8204772967495266173.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">China develops convalescent plasma therapy for coronavirus patients</h5>
+                    <p class="card-text text-muted">14 Feb 14:57 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse2">13  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse2">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China develops convalescent plasma therapy for coronavirus patients</h5>
+                          <p class="mb-1 text-truncate-4">China National Biotec Group said it has collected plasma from some recovered patients to prepare therapeutic products including convalescent plasma and immune globulin.The CNBG says 3 critically ill patients in Wuhan received convalescent plasma treatment on 8 Feb. Currently, over 10 critically ill are under plasma treatment</p>
+                          <small class="text-muted text-muted">14 Feb 14:57 <small class="mx-1 align-text-top">•</small> Livemint <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/6614605819036092730.html" class="text-muted stretched-link">6614605819036092730.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">UIC researchers discover unique organ-specific signatures for endothelial cells</h5>
+                          <p class="mb-1 text-truncate-4">Researchers from the University of Illinois at Chicago have discovered that endothelial cells -; those that create the inner lining of blood vessels -; have unique genetic signatures based on their location in the body.</p>
+                          <small class="text-muted text-muted">14 Feb 13:59 <small class="mx-1 align-text-top">•</small> News-Medical.net <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/4522523030407973449.html" class="text-muted stretched-link">4522523030407973449.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Artificial intelligence finds disease-related genes</h5>
+                          <p class="mb-1 text-truncate-4">An artificial neural network can reveal patterns in huge amounts of gene expression data and discover groups of disease-related genes. This has been shown by a new study led by researchers at Linköping ...</p>
+                          <small class="text-muted text-muted">14 Feb 13:50 <small class="mx-1 align-text-top">•</small> Tech Xplore <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/4945708898202131640.html" class="text-muted stretched-link">4945708898202131640.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Biologists investigate the role of the largest animal brain cells</h5>
+                          <p class="mb-1 text-truncate-4">The brains of most fish and amphibian species contain two types of conspicuously large nerve cells. These are the largest cells found in any animal brain. They are called Mauthner cells and trigger lightning-fast ...</p>
+                          <small class="text-muted text-muted">14 Feb 13:50 <small class="mx-1 align-text-top">•</small> phys.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3476726124522165915.html" class="text-muted stretched-link">3476726124522165915.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Weight loss drug Belviq pulled from market over FDA cancer risk concerns</h5>
+                          <p class="mb-1 text-truncate-4">The prescription medication has been in clinical trials that the FDA say show patients could get cancer.</p>
+                          <small class="text-muted text-muted">14 Feb 13:46 <small class="mx-1 align-text-top">•</small> ABC7 Los Angeles <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/8300010439895233701.html" class="text-muted stretched-link">8300010439895233701.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IGF-1 May Be Involved in Parkinson’s Development, Review Suggests</h5>
+                          <p class="mb-1 text-truncate-4">Increasing evidence links insulin-like growth factor 1 (IGF-1) deficiency to the development and progression of Parkinson's disease, a review study said. Estrogen, the female sex hormone thought...</p>
+                          <small class="text-muted text-muted">14 Feb 13:00 <small class="mx-1 align-text-top">•</small> Parkinson's News Today <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/2509734586937195258.html" class="text-muted stretched-link">2509734586937195258.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus May Live up to 9 Days on Surfaces, New Study Finds</h5>
+                          <p class="mb-1 text-truncate-4">It turns out the coronavirus can be spread by touching infected surfaces now. A new study has found that the virus can live for up to nine days on surfaces, exacerbating the issue.</p>
+                          <small class="text-muted text-muted">14 Feb 12:50 <small class="mx-1 align-text-top">•</small> Interesting Engineering <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/7328942541575691844.html" class="text-muted stretched-link">7328942541575691844.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Study provides a detailed molecular snapshot of endometrial cancer</h5>
+                          <p class="mb-1 text-truncate-4">A study published Feb. 13 in Cell provides an unprecedented look at the dozens of molecular steps that occur to bring about endometrial cancer, commonly known as uterine cancer.</p>
+                          <small class="text-muted text-muted">14 Feb 12:31 <small class="mx-1 align-text-top">•</small> News-Medical.net <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/4522523029955101586.html" class="text-muted stretched-link">4522523029955101586.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Soon, a simple blood test could be used to detect cancer</h5>
+                          <p class="mb-1 text-truncate-4">Researchers report high accuracy even before appearance of symptoms</p>
+                          <small class="text-muted text-muted">14 Feb 12:17 <small class="mx-1 align-text-top">•</small> BusinessLine <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/5283600301308475.html" class="text-muted stretched-link">5283600301308475.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Chinese Doctors have Found a Way to Treat Coronavirus-Infected People</h5>
+                          <p class="mb-1 text-truncate-4">China's technique for plasma transfusion from cured coronavirus to infected patients has proven to be effective, Xinhua News Agency reported, citing local doctors. The effectiveness of the new treatment was announced at a press conference by the Wuhan hospital manager.</p>
+                          <small class="text-muted text-muted">14 Feb 11:45 <small class="mx-1 align-text-top">•</small> novinite.com <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/4235039572000107446.html" class="text-muted stretched-link">4235039572000107446.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">New study describes inflammatory reaction in lab-developed human astrocytes</h5>
+                          <p class="mb-1 text-truncate-4">Astrocytes are neural cells with many important functions in the nervous system. The inflammation of these cells occurs in brain infections and neurodegenerative disorders, a process called astrogliosis.</p>
+                          <small class="text-muted text-muted">14 Feb 11:38 <small class="mx-1 align-text-top">•</small> News-Medical.net <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/4522523031834455091.html" class="text-muted stretched-link">4522523031834455091.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Eisai agrees to pull obesity drug Belviq after safety alert</h5>
+                          <p class="mb-1 text-truncate-4">Eisai has moved swiftly to comply with an FDA request to pull its obesity drug Belviq off the market after it was linked to an increased risk of cancer.</p>
+                          <small class="text-muted text-muted">14 Feb 10:01 <small class="mx-1 align-text-top">•</small> PMLive <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/7773534728120194092.html" class="text-muted stretched-link">7773534728120194092.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Gum disease linked to higher stroke risk</h5>
+                          <p class="mb-1 text-truncate-4">Gum disease may be linked to higher rates of stroke caused by hardened and severely blocked arteries, preliminary research findings indicate.</p>
+                          <small class="text-muted text-muted">14 Feb 08:03 <small class="mx-1 align-text-top">•</small> UPI <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/8257973864638301101.html" class="text-muted stretched-link">8257973864638301101.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">IOC face 'big communications job' as virus jitters hit Tokyo Olympics</h5>
+                    <p class="card-text text-muted">14 Feb 15:25 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse3">7  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse3">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IOC face 'big communications job' as virus jitters hit Tokyo Olympics</h5>
+                          <p class="mb-1 text-truncate-4">The head of the International Olympic Committee (IOC) coordination commission insisted there was no danger of Tokyo 2020 being cancelled or moved.</p>
+                          <small class="text-muted text-muted">14 Feb 15:25 <small class="mx-1 align-text-top">•</small> New Vision <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/9103146372146106930.html" class="text-muted stretched-link">9103146372146106930.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IOC face 'big communications job' as coronavirus jitters hit Olympics</h5>
+                          <p class="mb-1 text-truncate-4">Olympic chiefs admit they face a "very big communications job" to soothe concerns over the coronavirus epidemic</p>
+                          <small class="text-muted text-muted">14 Feb 13:33 <small class="mx-1 align-text-top">•</small> Sport <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/682566034656136568.html" class="text-muted stretched-link">682566034656136568.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IOC face 'big communications job' as virus jitters hit Tokyo Olympics</h5>
+                          <p class="mb-1 text-truncate-4">Tokyo organizers have slammed</p>
+                          <small class="text-muted text-muted">14 Feb 13:17 <small class="mx-1 align-text-top">•</small> Saudi Gazette <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/6913978435484218086.html" class="text-muted stretched-link">6913978435484218086.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">A very big communications job needs to be undertaken: Tokyo 2020 organisers on Coronavirus threat</h5>
+                          <p class="mb-1 text-truncate-4">The head of IOC’s coordination commission insisted there was no danger of Tokyo 2020 being cancelled or moved</p>
+                          <small class="text-muted text-muted">14 Feb 12:24 <small class="mx-1 align-text-top">•</small> Scroll.in <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/8669301694141067107.html" class="text-muted stretched-link">8669301694141067107.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IOC face ‘big communications job’ as virus jitters hit Tokyo Olympics</h5>
+                          <p class="mb-1 text-truncate-4">TOKYO, Japan, Feb 14 - Olympic chiefs admitted Friday they face a "very big communications job" to soothe concerns over the coronavirus epidemic in the Get the latest local and international sports updates, football, rugby, athletics, golf, cricket and more</p>
+                          <small class="text-muted text-muted">14 Feb 11:52 <small class="mx-1 align-text-top">•</small> Capital Sports <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/7605153804530311780.html" class="text-muted stretched-link">7605153804530311780.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Tokyo 2020: IOC faces ‘big communications job’ following virus scare</h5>
+                          <p class="mb-1 text-truncate-4">The head of the International Olympic Committee (IOC) coordination commission insisted there was no danger of Tokyo 2020 being cancelled...</p>
+                          <small class="text-muted text-muted">14 Feb 11:43 <small class="mx-1 align-text-top">•</small> Vanguard News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/4125100339948243144.html" class="text-muted stretched-link">4125100339948243144.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">IOC face 'big communications job' as virus jitters hit Tokyo Olympics</h5>
+                          <p class="mb-1 text-truncate-4">Tokyo Olympics News: Olympic chiefs admitted Friday they face a "very big communications job" to soothe concerns over the coronavirus epidemic in the run-up to this summer</p>
+                          <small class="text-muted text-muted">14 Feb 10:40 <small class="mx-1 align-text-top">•</small> The Times of India <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6060938664478274437.html" class="text-muted stretched-link">6060938664478274437.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Four Shortlisted NASA Missions Would Explore the Nastiest Places in the Solar System</h5>
+                    <p class="card-text text-muted">14 Feb 17:52 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse4">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse4">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Four Shortlisted NASA Missions Would Explore the Nastiest Places in the Solar System</h5>
+                          <p class="mb-1 text-truncate-4">As part of its ongoing Discovery Program, NASA has selected four possible missions that would involve some of the most hostile and enigmatic places in the solar system.</p>
+                          <small class="text-muted text-muted">14 Feb 17:52 <small class="mx-1 align-text-top">•</small> Gizmodo <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/461714590806667605.html" class="text-muted stretched-link">461714590806667605.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA selects four possible missions to study the secrets of the solar system</h5>
+                          <p class="mb-1 text-truncate-4">NASA has selected four Discovery Program investigations to develop concept studies for new missions. Although they're not official missions yet and some ultimately may not be chosen to move forward, the ...</p>
+                          <small class="text-muted text-muted">14 Feb 13:56 <small class="mx-1 align-text-top">•</small> phys.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3476726123687792036.html" class="text-muted stretched-link">3476726123687792036.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA selects four finalists for next Discovery mission</h5>
+                          <p class="mb-1 text-truncate-4">NASA is considering missions to Venus and two outer solar system moons as the next in its Discovery line of planetary science missions.</p>
+                          <small class="text-muted text-muted">14 Feb 11:59 <small class="mx-1 align-text-top">•</small> SpaceNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/7631243598990614128.html" class="text-muted stretched-link">7631243598990614128.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Man sues for damages over alleged disfigurement after cancer treatment</h5>
+                    <p class="card-text text-muted">14 Feb 17:30 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse5">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse5">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Man sues for damages over alleged disfigurement after cancer treatment</h5>
+                          <p class="mb-1 text-truncate-4">Liam Coughlan claims an unnecessary and inappropriate procedure was carried out</p>
+                          <small class="text-muted text-muted">14 Feb 17:30 <small class="mx-1 align-text-top">•</small> The Irish Times <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/8204772968699442459.html" class="text-muted stretched-link">8204772968699442459.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">'I feel like the elephant man': Cork man sues hospital after alleged disfigurement after surgery</h5>
+                          <p class="mb-1 text-truncate-4">A 63- year old man who claims he suffered alleged disfigurement when he had mouth surgery as part of a cancer treatment at a Cork hospital has sued in the High Court.</p>
+                          <small class="text-muted text-muted">14 Feb 17:01 <small class="mx-1 align-text-top">•</small> Irishexaminer <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/8196011179652559988.html" class="text-muted stretched-link">8196011179652559988.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coroner questions whether pensioner should have been left to make decisions about his treatment</h5>
+                          <p class="mb-1 text-truncate-4">He became ill with prostate cancer and had a leg ulcer before he died</p>
+                          <small class="text-muted text-muted">14 Feb 11:50 <small class="mx-1 align-text-top">•</small> NottinghamshireLive <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/5149776702038128155.html" class="text-muted stretched-link">5149776702038128155.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">No 'Plan B' for Olympics; questions over Chinese presence</h5>
+                    <p class="card-text text-muted">14 Feb 16:25 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse6">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse6">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">No 'Plan B' for Olympics; questions over Chinese presence</h5>
+                          <p class="mb-1 text-truncate-4">Tokyo Olympic organizers and the International Olympic Committee said Friday there is no "Plan B" for the 2020 Games, which open in just over five months and have been jolted by the outbreak of a virus in neighbouring China.</p>
+                          <small class="text-muted text-muted">14 Feb 16:25 <small class="mx-1 align-text-top">•</small> CTVNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/2422791598172358223.html" class="text-muted stretched-link">2422791598172358223.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">No 'Plan B' for Olympics; questions over Chinese presence</h5>
+                          <p class="mb-1 text-truncate-4">Tokyo Olympic organizers and the International Olympic Committee said Friday there is no “Plan B” for the 2020 Games, which open in just over five months and have been jolted by the outbreak of a virus in neighboring China.</p>
+                          <small class="text-muted text-muted">14 Feb 16:18 <small class="mx-1 align-text-top">•</small> Fox News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/7362823820150205504.html" class="text-muted stretched-link">7362823820150205504.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Tokyo Olympics: Games on track, will monitor China athletes, say organisers</h5>
+                          <p class="mb-1 text-truncate-4">The coronavirus has infected almost 64,000 people globally with almost 1,400 deaths in China, but only one in Japan where fear is rising with so much attention focused on the outbreak</p>
+                          <small class="text-muted text-muted">14 Feb 13:26 <small class="mx-1 align-text-top">•</small> Business-Standard <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/1502508925443227336.html" class="text-muted stretched-link">1502508925443227336.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Woman arrested after faking coronavirus to skip queue at doctor's surgery</h5>
+                    <p class="card-text text-muted">14 Feb 16:20 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse7">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse7">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Woman arrested after faking coronavirus to skip queue at doctor's surgery</h5>
+                          <p class="mb-1 text-truncate-4">Claudia Maria Rosa da Silva went to the health clinic in Rio de Janeiro, Brazil, claiming to have the virus saying she had just returned from Hong Kong</p>
+                          <small class="text-muted text-muted">14 Feb 16:20 <small class="mx-1 align-text-top">•</small> mirror <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/675785259924624975.html" class="text-muted stretched-link">675785259924624975.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hong Kong doctor battles fear and separation on virus ‘dirty team’</h5>
+                          <p class="mb-1 text-truncate-4">The 38-year-old volunteered to join staff on isolation wards -- dubbed</p>
+                          <small class="text-muted text-muted">14 Feb 15:22 <small class="mx-1 align-text-top">•</small> Manila Bulletin News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/7849457200203089331.html" class="text-muted stretched-link">7849457200203089331.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hong Kong doctor battles fear and separation on virus 'dirty team'</h5>
+                          <p class="mb-1 text-truncate-4">HONG KONG: After gruelling shifts treating coronavirus patients, Hong Kong doctor Alfred Wong often finds himself alone in a hotel room eating ...</p>
+                          <small class="text-muted text-muted">14 Feb 14:40 <small class="mx-1 align-text-top">•</small> CNA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/5644198863641036277.html" class="text-muted stretched-link">5644198863641036277.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Fake news makes disease outbreaks worse, study finds</h5>
+                    <p class="card-text text-muted">14 Feb 15:58 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse8">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse8">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Fake news makes disease outbreaks worse, study finds</h5>
+                          <p class="mb-1 text-truncate-4">LONDON, Feb 14 — The rise of “fake news” — including misinformation and inaccurate advice on social media — could make disease outbreaks such as the Covid-19 coronavirus epidemic currently spreading in China worse, according to research published today. In an analysis of how the spread of...</p>
+                          <small class="text-muted text-muted">14 Feb 15:58 <small class="mx-1 align-text-top">•</small> Malaymail <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/302165934892058810.html" class="text-muted stretched-link">302165934892058810.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Experts say fake news could worsen disease outbreaks</h5>
+                          <p class="mb-1 text-truncate-4">The increase in fake news could be making disease outbreaks worse, experts say.</p>
+                          <small class="text-muted text-muted">14 Feb 14:42 <small class="mx-1 align-text-top">•</small> RTE.ie <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/7595237277742575348.html" class="text-muted stretched-link">7595237277742575348.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Fake news makes disease outbreaks worse, research shows</h5>
+                          <p class="mb-1 text-truncate-4">The rise of fake news could be making disease outbreaks worse—according to new research from the University of East Anglia (UEA).</p>
+                          <small class="text-muted text-muted">14 Feb 08:01 <small class="mx-1 align-text-top">•</small> phys.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3476726123763171351.html" class="text-muted stretched-link">3476726123763171351.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Philippines to lift Taiwan travel ban imposed over coronavirus</h5>
+                    <p class="card-text text-muted">14 Feb 14:41 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse9">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse9">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Philippines to lift Taiwan travel ban imposed over coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">The Philippines on Friday lifted a travel ban that was imposed on visitors from Taiwan in a bid to control the spread of the coronavirus, and</p>
+                          <small class="text-muted text-muted">14 Feb 14:41 <small class="mx-1 align-text-top">•</small> Vanguard News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/4125100339190540846.html" class="text-muted stretched-link">4125100339190540846.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Philippines to lift Taiwan travel ban imposed over coronavirus</h5>
+                          <p class="mb-1 text-truncate-4">MANILA/TAIPEI (Reuters) - The Philippines has lifted a travel ban that was imposed on visitors from Taiwan in a bid to control the spread of the coronavirus, and will evaluate other restrictions including those on Macau, government officials said on Friday.</p>
+                          <small class="text-muted text-muted">14 Feb 12:11 <small class="mx-1 align-text-top">•</small> Reuters <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/8334514180470997420.html" class="text-muted stretched-link">8334514180470997420.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Philippines to lift Taiwan travel ban imposed over Covid-19</h5>
+                          <p class="mb-1 text-truncate-4">MANILA, Feb 14 — The Philippines has lifted a travel ban that was imposed on visitors from Taiwan in a bid to control the spread of the coronavirus, and will evaluate other restrictions including those on Macau, government officials said today. The decision followed a warning by Taiwan, which has...</p>
+                          <small class="text-muted text-muted">14 Feb 11:56 <small class="mx-1 align-text-top">•</small> Malaymail <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/302165935902408576.html" class="text-muted stretched-link">302165935902408576.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">More sexual partners linked to higher cancer risk</h5>
+                    <p class="card-text text-muted">14 Feb 14:03 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse10">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse10">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">More sexual partners linked to higher cancer risk</h5>
+                          <p class="mb-1 text-truncate-4">If you need more than two hands to count the number of lovers you've had in your life, new research suggests you might want to worry about your cancer risk.</p>
+                          <small class="text-muted text-muted">14 Feb 14:03 <small class="mx-1 align-text-top">•</small> UPI <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/8257973864591917625.html" class="text-muted stretched-link">8257973864591917625.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Having more than 10 sexual partners throughout your life 'raises the risk of cancer'</h5>
+                          <p class="mb-1 text-truncate-4">The new study mirrors previous findings linking sexually transmitted infections in the development of several cancers and hepatitis</p>
+                          <small class="text-muted text-muted">14 Feb 13:49 <small class="mx-1 align-text-top">•</small> Wales Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/7686550517579933119.html" class="text-muted stretched-link">7686550517579933119.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Having sex with more than 10 people 'could be linked to increased cancer risk'</h5>
+                          <p class="mb-1 text-truncate-4">Around 22% of men and just under 8% of women reported 10 or more sexual partners.</p>
+                          <small class="text-muted text-muted">14 Feb 10:22 <small class="mx-1 align-text-top">•</small> Metro <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/970161748473745822.html" class="text-muted stretched-link">970161748473745822.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">It Was Over 20°C In Antarctica Last Week</h5>
+                    <p class="card-text text-muted">14 Feb 12:57 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse11">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse11">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">It Was Over 20°C In Antarctica Last Week</h5>
+                          <p class="mb-1 text-truncate-4">Just days after mainland Antarctica tipped a record temperature of 18.3°C (64.9°F), there are fresh reports of yet another record in the region: a positive</p>
+                          <small class="text-muted text-muted">14 Feb 12:57 <small class="mx-1 align-text-top">•</small> IFLScience <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/242791749113620168.html" class="text-muted stretched-link">242791749113620168.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Antarctica registers record temperature of over 20 C</h5>
+                          <p class="mb-1 text-truncate-4">Scientists in Antarctica have recorded a new record temperature of 20.75 degrees Celsius (69.35 Fahrenheit), breaking the barrier of 20 degrees for the first time on the continent, a researcher said Thursday.</p>
+                          <small class="text-muted text-muted">14 Feb 08:19 <small class="mx-1 align-text-top">•</small> phys.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3476726123805123022.html" class="text-muted stretched-link">3476726123805123022.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Antarctica registers record temperature of over 20 C</h5>
+                          <p class="mb-1 text-truncate-4">Scientists in Antarctica have recorded a new record temperature of 20.75 degrees Celsius (69.35 Fahrenheit), breaking the barrier of 20 degrees ...</p>
+                          <small class="text-muted text-muted">14 Feb 08:17 <small class="mx-1 align-text-top">•</small> CNA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/5644198863057222798.html" class="text-muted stretched-link">5644198863057222798.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Mumps cases soar to highest number in a decade</h5>
+                    <p class="card-text text-muted">14 Feb 10:46 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse12">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse12">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Mumps cases soar to highest number in a decade</h5>
+                          <p class="mb-1 text-truncate-4">There were 5,042 recorded cases of mumps in England in 2019 – four times the number in 2018 and the highest level in a decade. Many of these cases were as a result of outbreaks in universities and colleges and most were in young adults who did not have the MMR (measles, mumps and rubella) jab. A large number of the 2019 cases were people born in the late 1990s and early 2000s who missed out on the MMR vaccine when they were children. In 1998, doctor Andrew Wakefield led a study that linked the MMR vaccine to autism. His work was subsequently discredited and he was struck off, but uptake of the vaccine dropped to about 80% in the late 1990s and a low of 79% in 2003.</p>
+                          <small class="text-muted text-muted">14 Feb 10:46 <small class="mx-1 align-text-top">•</small> ITV News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/2184971257639033292.html" class="text-muted stretched-link">2184971257639033292.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Mumps cases in England rise to highest level in a decade</h5>
+                          <p class="mb-1 text-truncate-4">Total of 5,042 is four times that in 2018 as health experts urge people to catch up on vaccine</p>
+                          <small class="text-muted text-muted">14 Feb 09:34 <small class="mx-1 align-text-top">•</small> the Guardian <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/1491978794334543600.html" class="text-muted stretched-link">1491978794334543600.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Mumps warning after 5,042 cases - highest number in a decade</h5>
+                          <p class="mb-1 text-truncate-4">In 1998, doctor Andrew Wakefield led a study that linked the MMR vaccine to autism. His work was subsequently discredited and he was struck off</p>
+                          <small class="text-muted text-muted">14 Feb 08:44 <small class="mx-1 align-text-top">•</small> Wales Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/7686550515746551034.html" class="text-muted stretched-link">7686550515746551034.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Nasa confirms 'potentially hazardous' asteroid will pass Earth safely tomorrow</h5>
+                    <p class="card-text text-muted">14 Feb 09:58 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse13">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse13">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Nasa confirms 'potentially hazardous' asteroid will pass Earth safely tomorrow</h5>
+                          <p class="mb-1 text-truncate-4">The gigantic space rock will miss us by about 3 million miles</p>
+                          <small class="text-muted text-muted">14 Feb 09:58 <small class="mx-1 align-text-top">•</small> Metro <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/970161749133059274.html" class="text-muted stretched-link">970161749133059274.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA: Massive Asteroid Will Come Into Close Contact With Earth On 15th February</h5>
+                          <p class="mb-1 text-truncate-4">NASA has announced that a giant asteroid that could cause planet-wide devastation will hurtle close to Earth at a speed of 34,000km per hour tomorrow (15th February) at approximately 6:05 a.m. Thankfully, Earth is just narrowly out of range from the kilometer-wide asteroid, officially referred to as 2002 PZ39, as…</p>
+                          <small class="text-muted text-muted">14 Feb 09:54 <small class="mx-1 align-text-top">•</small> WORLD OF BUZZ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/7535116579067301427.html" class="text-muted stretched-link">7535116579067301427.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA spots ‘potentially hazardous’ asteroid rapidly approaching Earth</h5>
+                          <p class="mb-1 text-truncate-4">NASA confirms that an asteroid larger than the tallest man-made structure in the world is currently travelling towards Earth at a speed of almost 34,000 miles per hour. According to International Business Times, NASA's Center for</p>
+                          <small class="text-muted text-muted">14 Feb 08:01 <small class="mx-1 align-text-top">•</small> LailasNews.com <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/2090029849023184836.html" class="text-muted stretched-link">2090029849023184836.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">This Morning's Alison Hammond pays tribute to her ‘wonderful’ mum who has died from liver and lung cancer</h5>
+                    <p class="card-text text-muted">14 Feb 09:29 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse14">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse14">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">This Morning's Alison Hammond pays tribute to her ‘wonderful’ mum who has died from liver and lung cancer</h5>
+                          <p class="mb-1 text-truncate-4">This Morning host Alison, 45, dedicated Valentine’s Day to her beloved mum Maria</p>
+                          <small class="text-muted text-muted">14 Feb 09:29 <small class="mx-1 align-text-top">•</small> men <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6694993428641411249.html" class="text-muted stretched-link">6694993428641411249.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Alison Hammond reveals her mother has sadly passed away from liver and lung cancer as she dedicates Valentine's Day to her</h5>
+                          <p class="mb-1 text-truncate-4">Alison Hammond took to social media on Friday to reveal her mother has sadly passed away.&nbsp;</p>
+                          <small class="text-muted text-muted">14 Feb 08:25 <small class="mx-1 align-text-top">•</small> Mail Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/124328112030608501.html" class="text-muted stretched-link">124328112030608501.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Alison Hammond shares emotional tribute as mum dies from liver and lung cancer</h5>
+                          <p class="mb-1 text-truncate-4">'I will always remember you and try and make you proud'.</p>
+                          <small class="text-muted text-muted">14 Feb 08:15 <small class="mx-1 align-text-top">•</small> Metro <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/970161747030251513.html" class="text-muted stretched-link">970161747030251513.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Major drop in new cases</h5>
+                    <p class="card-text text-muted">14 Feb 17:32 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse15">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse15">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Major drop in new cases</h5>
+                          <p class="mb-1 text-truncate-4">China reported Saturday a figure of 2,641 new virus cases, a major drop from the higher numbers in recent days since a broader diagnostic method was implemented.</p>
+                          <small class="text-muted text-muted">14 Feb 17:32 <small class="mx-1 align-text-top">•</small> Castanet <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/616068602606032777.html" class="text-muted stretched-link">616068602606032777.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China reports major drop in new virus cases; 143 new deaths</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING — China reported Saturday a figure of 2,641 new virus cases, a major drop from the higher numbers in recent days since a broader diagnostic method was implemented. The number of new deaths rose slightly to 143, bringing the total fatalities in mainland China to 1,523. The total number of confirmed cases in the …</p>
+                          <small class="text-muted text-muted">14 Feb 12:35 <small class="mx-1 align-text-top">•</small> City NEWS 1130 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/5858657120359886688.html" class="text-muted stretched-link">5858657120359886688.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Robot waitress serves up smiles in war-torn Afghanistan</h5>
+                    <p class="card-text text-muted">14 Feb 16:45 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse16">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse16">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Robot waitress serves up smiles in war-torn Afghanistan</h5>
+                          <p class="mb-1 text-truncate-4">Restaurant manager Mohammad Rafi Shirzad says the humanoid robot, imported from Japan and designed to look vaguely like a women wearing a hijab, has already pulled in new customers.</p>
+                          <small class="text-muted text-muted">14 Feb 16:45 <small class="mx-1 align-text-top">•</small> Deccan Herald <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/2027555797997176300.html" class="text-muted stretched-link">2027555797997176300.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Robot waitress serves up smiles in war-torn Afghanistan</h5>
+                          <p class="mb-1 text-truncate-4">While robots are becoming increasingly commonplace in Japan and China, they are unusual in conflict-wracked Afghanistan.</p>
+                          <small class="text-muted text-muted">14 Feb 13:22 <small class="mx-1 align-text-top">•</small> Saudi Gazette <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/6913978434908755207.html" class="text-muted stretched-link">6913978434908755207.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Florida dental assistant accused of sexually battering woman before wisdom tooth surgery</h5>
+                    <p class="card-text text-muted">14 Feb 16:05 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse17">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse17">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Florida dental assistant accused of sexually battering woman before wisdom tooth surgery</h5>
+                          <p class="mb-1 text-truncate-4">A Pasco County dental assistant is accused of sexually battering an 18-year-old woman during wisdom tooth surgery.</p>
+                          <small class="text-muted text-muted">14 Feb 16:05 <small class="mx-1 align-text-top">•</small> ABC15 Arizona <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/911680911775663853.html" class="text-muted stretched-link">911680911775663853.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Florida dental assistant accused of sexually battering woman before wisdom tooth surgery</h5>
+                          <p class="mb-1 text-truncate-4">A Pasco County dental assistant is accused of sexually battering an 18-year-old woman during wisdom tooth surgery.</p>
+                          <small class="text-muted text-muted">14 Feb 11:05 <small class="mx-1 align-text-top">•</small> Fox 4 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/8372747778826471149.html" class="text-muted stretched-link">8372747778826471149.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Dying a desperate death: A Wuhan family's coronavirus ordeal</h5>
+                    <p class="card-text text-muted">14 Feb 15:39 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse18">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse18">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Dying a desperate death: A Wuhan family's coronavirus ordeal</h5>
+                          <p class="mb-1 text-truncate-4">There were no doctors, nurses or medical equipment at the Wuhan hotel converted into a temporary quarantine facility for suspected coronavirus ...</p>
+                          <small class="text-muted text-muted">14 Feb 15:39 <small class="mx-1 align-text-top">•</small> CNA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/5644198863902533289.html" class="text-muted stretched-link">5644198863902533289.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Dying a desperate death: A Wuhan family's coronavirus ordeal</h5>
+                          <p class="mb-1 text-truncate-4">The Wangs are among tens of thousands of families devastated by the coronavirus in Wuhan, where the medical system has been overwhelmed by the outbreak, despite massive reinforcements and two speedily built new hospitals.</p>
+                          <small class="text-muted text-muted">14 Feb 14:28 <small class="mx-1 align-text-top">•</small> The Jakarta Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/7678601103163603224.html" class="text-muted stretched-link">7678601103163603224.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Derbyshire tot 'sent home to die' celebrates her first birthday</h5>
+                    <p class="card-text text-muted">14 Feb 14:57 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse19">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse19">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Derbyshire tot 'sent home to die' celebrates her first birthday</h5>
+                          <p class="mb-1 text-truncate-4">'We brought her home and it felt like we were just waiting'</p>
+                          <small class="text-muted text-muted">14 Feb 14:57 <small class="mx-1 align-text-top">•</small> Derbyshire Live <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/9061707931786532146.html" class="text-muted stretched-link">9061707931786532146.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Tipperary girl Sophie, 7, is hoping to make her dream come true</h5>
+                          <p class="mb-1 text-truncate-4">Her smile just brightens the darkest of days</p>
+                          <small class="text-muted text-muted">14 Feb 10:00 <small class="mx-1 align-text-top">•</small> TipperaryLive <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/1097599577208104824.html" class="text-muted stretched-link">1097599577208104824.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Turkey Says to Export Fast-results Coronavirus Detection Kit</h5>
+                    <p class="card-text text-muted">14 Feb 14:04 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse20">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse20">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Turkey Says to Export Fast-results Coronavirus Detection Kit</h5>
+                          <p class="mb-1 text-truncate-4">China's coronavirus outbreak has showed no sign of peaking with health authorities reporting more than 5,000 new cases earlier on Friday</p>
+                          <small class="text-muted text-muted">14 Feb 14:04 <small class="mx-1 align-text-top">•</small> Haaretz <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/1431421787433859287.html" class="text-muted stretched-link">1431421787433859287.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Turkey says to export fast-results coronavirus detection kit</h5>
+                          <p class="mb-1 text-truncate-4">ANKARA, Feb 14 — Turkey will in coming days export to Uzbekistan and Kyrgyzstan locally-produced coronavirus detection kits that can get results in about two hours, its health minister said today. China’s coronavirus outbreak has showed no sign of peaking with health authorities reporting more...</p>
+                          <small class="text-muted text-muted">14 Feb 09:53 <small class="mx-1 align-text-top">•</small> Malaymail <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/302165935804173822.html" class="text-muted stretched-link">302165935804173822.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">China virus toll revised downward after deaths double-counted</h5>
+                    <p class="card-text text-muted">14 Feb 14:02 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse21">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse21">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus toll revised downward after deaths double-counted</h5>
+                          <p class="mb-1 text-truncate-4">China's death toll from the new coronavirus epidemic was revised downwards to 1,380 on Friday after officials said some fatalities had been counted more than once.</p>
+                          <small class="text-muted text-muted">14 Feb 14:02 <small class="mx-1 align-text-top">•</small> News24 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/3752801377011340289.html" class="text-muted stretched-link">3752801377011340289.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China virus toll revised down to 1,380 after deaths double-counted</h5>
+                          <p class="mb-1 text-truncate-4">Hubei reported more than 4,800 new cases on Friday.</p>
+                          <small class="text-muted text-muted">14 Feb 08:38 <small class="mx-1 align-text-top">•</small> Deccan Herald <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/2027555797118914530.html" class="text-muted stretched-link">2027555797118914530.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Research: Covid-19 could infect two-thirds of globe</h5>
+                    <p class="card-text text-muted">14 Feb 13:55 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse22">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse22">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Research: Covid-19 could infect two-thirds of globe</h5>
+                          <p class="mb-1 text-truncate-4">AS THE number of Covid-19 coronavirus cases jumps dramatically in China, a top infectious-disease scientist warns that things could get far worse: Two-thirds of the world’s population could catch it.</p>
+                          <small class="text-muted text-muted">14 Feb 13:55 <small class="mx-1 align-text-top">•</small> NST Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3702929170166057453.html" class="text-muted stretched-link">3702929170166057453.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Bloomberg: Coronavirus could infect two-thirds of globe, research shows</h5>
+                          <p class="mb-1 text-truncate-4">Even if there were a way to reduce transmission by half, that would still imply that roughly one-third of the world would become infected.</p>
+                          <small class="text-muted text-muted">14 Feb 09:24 <small class="mx-1 align-text-top">•</small> UNIAN <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6863008972519370235.html" class="text-muted stretched-link">6863008972519370235.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">China coronavirus toll increases to 1,367</h5>
+                    <p class="card-text text-muted">14 Feb 13:23 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse23">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse23">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China coronavirus toll increases to 1,367</h5>
+                          <p class="mb-1 text-truncate-4">Chinese authorities on Thursday said the overall toll due to the deadly coronavirus outbreak in the country has reached 1,367, with 52,526 confirmed cases</p>
+                          <small class="text-muted text-muted">14 Feb 13:23 <small class="mx-1 align-text-top">•</small> The Sentinel <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/448185208092454771.html" class="text-muted stretched-link">448185208092454771.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Coronavirus Outbreak: Death Toll In China Rises To 1,488 As Confirmed Cases Of Infection Surge To Over 64,000</h5>
+                          <p class="mb-1 text-truncate-4">As many as 121 new deaths were reported on Thursday, with over 5,000 confirmed cases of infection</p>
+                          <small class="text-muted text-muted">14 Feb 09:01 <small class="mx-1 align-text-top">•</small> Swarajya <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/4977622829912679145.html" class="text-muted stretched-link">4977622829912679145.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">In China's coronavirus epicenter, volunteers keep stricken city moving</h5>
+                    <p class="card-text text-muted">14 Feb 10:27 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse24">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse24">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">In China's coronavirus epicenter, volunteers keep stricken city moving</h5>
+                          <p class="mb-1 text-truncate-4">BEIJING (Reuters) - A day after the city government of Wuhan locked down all of its public transportation to keep the coronavirus outbreak that began in the city from spreading further, three nurses found themselves stranded outside Hankou train station.</p>
+                          <small class="text-muted text-muted">14 Feb 10:27 <small class="mx-1 align-text-top">•</small> Reuters <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/8334514180495744594.html" class="text-muted stretched-link">8334514180495744594.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">In China's coronavirus epicentre, volunteers keep stricken city moving</h5>
+                          <p class="mb-1 text-truncate-4">Many volunteers in the city use pseudonyms and keep their work hidden from their families who may otherwise try to stop them</p>
+                          <small class="text-muted text-muted">14 Feb 09:26 <small class="mx-1 align-text-top">•</small> Business-Standard <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/1502508925841848664.html" class="text-muted stretched-link">1502508925841848664.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">China reports 5,000 new coronavirus cases, cruise ship disembarks in Cambodia</h5>
+                    <p class="card-text text-muted">14 Feb 10:25 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse25">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse25">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China reports 5,000 new coronavirus cases, cruise ship disembarks in Cambodia</h5>
+                          <p class="mb-1 text-truncate-4">China's coronavirus outbreak showed no sign of peaking with health authorities on Friday reporting more than 5,000 new cases, while passengers on a cruise ship blocked from five countries due to virus fears finally disembarked in Cambodia.</p>
+                          <small class="text-muted text-muted">14 Feb 10:25 <small class="mx-1 align-text-top">•</small> Bdnews24 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/8119004129544243489.html" class="text-muted stretched-link">8119004129544243489.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">China reports 5,000 new coronavirus cases, cruise ship disembarks in Cambodia</h5>
+                          <p class="mb-1 text-truncate-4">China’s coronavirus outbreak showed no sign of peaking with health authorities on Friday reporting more than 5,000 new cases, while passenger</p>
+                          <small class="text-muted text-muted">14 Feb 08:13 <small class="mx-1 align-text-top">•</small> Vanguard News <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/4125100340327675350.html" class="text-muted stretched-link">4125100340327675350.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">AI used to ‘predict heart attack and stroke for the first time’</h5>
+                    <p class="card-text text-muted">14 Feb 10:04 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse26">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse26">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">AI used to ‘predict heart attack and stroke for the first time’</h5>
+                          <p class="mb-1 text-truncate-4">New research from Barts Health NHS Trust and University College London used an AI tool to analyse blood flow scans and predict possible health issues.</p>
+                          <small class="text-muted text-muted">14 Feb 10:04 <small class="mx-1 align-text-top">•</small> Jersey Evening Post <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6141642773445860837.html" class="text-muted stretched-link">6141642773445860837.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">World's first AI can predict when patients will have a heart attack or stroke better than a DOCTOR, study shows</h5>
+                          <p class="mb-1 text-truncate-4">Artificial intelligence was tested by Barts Health NHS trust. The&nbsp;AI was used to analyse blood flow scans of more than 1,000 patients its predictions were more accurate than a doctor.</p>
+                          <small class="text-muted text-muted">14 Feb 10:00 <small class="mx-1 align-text-top">•</small> Mail Online <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/124328111054622690.html" class="text-muted stretched-link">124328111054622690.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">NASA Releases Remixed Version Of Iconic 'Pale Blue Dot' Photo</h5>
+                    <p class="card-text text-muted">14 Feb 08:03 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse27">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse27">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA Releases Remixed Version Of Iconic 'Pale Blue Dot' Photo</h5>
+                          <p class="mb-1 text-truncate-4">A humbling photo of Earth taken by the Voyager 1 probe from a distance of 6 billion kilometres has been reprocessed by NASA to commemorate the 30th anniversary of the image....</p>
+                          <small class="text-muted text-muted">14 Feb 08:03 <small class="mx-1 align-text-top">•</small> Gizmodo AU <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3183561246856656114.html" class="text-muted stretched-link">3183561246856656114.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">NASA Releases Remixed Version of Iconic ‘Pale Blue Dot’ Photo</h5>
+                          <p class="mb-1 text-truncate-4">A humbling photo of Earth taken by the Voyager 1 probe from a distance of 3.7 billion miles has been reprocessed by NASA to commemorate the 30th anniversary of the image.</p>
+                          <small class="text-muted text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> Gizmodo UK <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/8363059002222738353.html" class="text-muted stretched-link">8363059002222738353.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">“The backbone of this is radically open communication”: Interview with Beducated’s co-founder couple</h5>
+                    <p class="card-text text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/en/science/#collapse28">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse28">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">“The backbone of this is radically open communication”: Interview with Beducated’s co-founder couple</h5>
+                          <p class="mb-1 text-truncate-4">From finally finding a co-founder that understands how you think, to working as a strong team, to figuring out how to draw the line between work and ‘free’ time, being a founder couple can have many benefits as well as challenges.</p>
+                          <small class="text-muted text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> EU-Startups <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/1488873444138942901.html" class="text-muted stretched-link">1488873444138942901.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">“The backbone of this is radically open communication”: Interview with Beducated’s co-founder couple</h5>
+                          <p class="mb-1 text-truncate-4">From finally finding a co-founder that understands how you think, to working as a strong team, to figuring out how to draw the line between work and ‘free’ time, being a founder couple can have many benefits as well as challenges.</p>
+                          <small class="text-muted text-muted">14 Feb 08:00 <small class="mx-1 align-text-top">•</small> EU-Startups <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/1488873444890996292.html" class="text-muted stretched-link">1488873444890996292.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-flex w-100 mb-4 justify-content-end">
+
+        </div>
+
+      </div>
+    </main>
+
+  
+</body></html>

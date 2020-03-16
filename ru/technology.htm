@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/ -->
+<html class="h-100"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kooky Dragon ‐ Entry #1228 ‐ Data Clustering Contest</title>
+    <link rel="stylesheet" href="../resources/bootstrap.min.css">
+    <script src="../resources/jquery-3.4.1.slim.min.js"></script>
+    <script src="../resources/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../resources/contest-zoo.css">
+    <style>.brand-photo{display:inline-block;width:40px;height:40px;margin:-.3125rem 0;text-align:center;vertical-align:top;overflow:hidden;}.brand-name{font-size:18px;line-height:16px;font-weight:500;vertical-align:top;margin:.125rem .25rem 0 1rem!important;}.brand-name small{display:inline-block;font-size:13px;font-weight:400;margin-top:.25rem;}.card-cover{width:180px;background:no-repeat center;background-size:cover;border-radius:0 .25rem .25rem 0;display:none;}.text-secondary{color:#6f42c1!important;}.text-truncate-3,.text-truncate-4,.text-truncate-5{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;}.text-truncate-3{-webkit-line-clamp:3;}.text-truncate-4{-webkit-line-clamp:4;}.text-truncate-5{-webkit-line-clamp:5;}.thread:not(:last-child){flex-grow:1;max-width:100%;}.thread.show{flex:0 0 100%;max-width:100%;}.thread.show .card-body{background-color:#f8f9fa!important;}.btn-outline-warning:hover{color:#fff;}.dropdown-toggle:after{margin-left:.5em;vertical-align:.15em;}</style>
+    <script>
+      $(document).on('show.bs.collapse', '.collapse', function () {
+        $(this).parents('.thread').addClass('show');
+      });
+      $(document).on('hidden.bs.collapse', '.collapse', function () {
+        $(this).parents('.thread').removeClass('show');
+      });
+    </script>
+  </head>
+  <body class="d-flex flex-column h-100" data-gr-c-s-loaded="true">
+    <header class="bg-light fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light px-0 px-sm-3">
+          <a class="navbar-brand py-0" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/">
+            <span class="brand-photo rounded-circle"><i class="animal-photo dragon bc7"></i></span><span class="brand-name d-none d-sm-inline-block"><div><span dir="auto" class="tc7">Kooky Dragon<span class="d-none d-md-inline"> News</span></span></div><small class="text-muted">Entry #1228</small></span>
+          </a>
+          <div class="dropdown flex-fill">
+            <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownDateButton" data-toggle="dropdown">14 Feb</button><div class="dropdown-menu">              <a class="dropdown-item disabled" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/">February, 14</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20200131/ru/">January, 31</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20191209/ru/">December, 9</a>
+              <a class="dropdown-item" href="https://entry1228-dcround1.usercontent.dev/20191129/ru/">November, 29</a>
+
+            </div>
+          </div>
+
+              <div class="btn-group btn-group-sm mx-2 mx-sm-3 mx-md-4">
+      <a class="btn btn-outline-secondary" href="https://entry1228-dcround1.usercontent.dev/20200214/en/technology/">EN</a>
+      <a class="btn btn-secondary" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/">RU</a>
+    </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/">Top</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/threads/ru/">Threads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/categories/ru/">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/news/ru/">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/languages/ru.html">Languages</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <footer class="bg-light mt-auto py-2 fixed-bottom">
+      <div class="container">
+        <small class="text-muted">
+        <a href="https://data-static.usercontent.dev/DataClusteringDataset0214Ru.tar.gz" class="text-dark" download="">11579 russian articles</a> processed in <b>45.921</b> seconds
+        <small class="mx-1 align-text-top">•</small>
+        <b>3.966</b> seconds per 1000 articles
+        <small class="mx-1 align-text-top">•</small>
+        <a href="https://entry1228-dcround1.usercontent.dev/20200214/ru/output.txt" class="text-dark">raw output</a>
+        <small class="mx-1 align-text-top">•</small>
+        <a href="https://entry1228-dcround1.usercontent.dev/20200214/ru/error_log.txt" class="text-dark">error log</a>
+
+        </small>
+      </div>
+    </footer>
+    <main class="flex-shrink-0 py-5">
+      <div class="container pt-2 pb-1">
+        <div class="mt-3 mb-3">
+          <nav class="nav nav-tabs">
+            <a class="ml-3 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/">Main</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/society/">Society</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/economy/">Economy</a>
+            <a class="ml-1 mr-1 nav-item nav-link active" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/">Technology</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/sports/">Sports</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/entertainment/">Entertainment</a>
+            <a class="ml-1 mr-1 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/science/">Science</a>
+            <a class="ml-1 mr-3 nav-item nav-link" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/other/">Other</a>
+          </nav>
+        </div>
+
+        <div class="d-flex w-100 flex-wrap justify-content-between">
+          <h5 class="mb-3 mt-2">Technology <small class="text-muted">35</small></h5>
+          <div class="mt-1">
+
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Смартфон Sony Xperia 1.1 сможет писать видео 8K HDR</h5>
+                    <p class="card-text text-muted">14 Feb 17:09 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse">23  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Смартфон Sony Xperia 1.1 сможет писать видео 8K HDR</h5>
+                          <p class="mb-1 text-truncate-4">В рамках выставки MWC 2020 компания Sony должна была представить несколько новых смартфонов, в том числе флагманов.</p>
+                          <small class="text-muted text-muted">14 Feb 17:09 <small class="mx-1 align-text-top">•</small> iLenta <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/1360813307598423930.html" class="text-muted stretched-link">1360813307598423930.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Samsung представил линейку флагманских смартфонов Galaxy S20</h5>
+                          <p class="mb-1 text-truncate-4">Новый флагман Samsung, похоже, станет первым смартфоном на рынке, снимающим видео в разрешении 8K.</p>
+                          <small class="text-muted text-muted">14 Feb 16:17 <small class="mx-1 align-text-top">•</small> Нью Информ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/4853830194596042991.html" class="text-muted stretched-link">4853830194596042991.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Samsung и LG разрабатывают гибрид смартфона и ноутбукового дисплея</h5>
+                          <p class="mb-1 text-truncate-4">Южнокорейские компании Samsung и LG работают над созданием нового типа устройств — Cloud Top. Для этого техногиганты планируют запустить производство мобильных дисплеев для смартфонов, передает Лига.Tech.</p>
+                          <small class="text-muted text-muted">14 Feb 16:16 <small class="mx-1 align-text-top">•</small> Mediasat <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/2309083700242003527.html" class="text-muted stretched-link">2309083700242003527.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Фанаты просят разблокировать весь потенциал экрана Samsung Galaxy S20</h5>
+                          <p class="mb-1 text-truncate-4">По имеющимся данным, в скором времени на рынке появится смартфон Oppo Find X2. У его обладателей будет возможность выбрать максимальное разрешение экрана одновременно с частотой обновления изображения 120 Гц. Если говорить о корейских гаджетах Samsung Galaxy S20, то такой показатель доступен только</p>
+                          <small class="text-muted text-muted">14 Feb 16:05 <small class="mx-1 align-text-top">•</small> Интересные новости OAnews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/4585421865248984308.html" class="text-muted stretched-link">4585421865248984308.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Meizu 17th Plus с 64 ГБ оперативки показали на реальном фото</h5>
+                          <p class="mb-1 text-truncate-4">Несколько недель назад в сети появилась фотография ещё не анонсированного смартфона Meizu 17th, а теперь китайские инсайдеры поделились снимком его Plus-версии. Судя по всему, новинка сможет побороться за звание смартфона с самыми тонкими рамками.</p>
+                          <small class="text-muted text-muted">14 Feb 16:00 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/9178748521139193746.html" class="text-muted stretched-link">9178748521139193746.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">На «живом» фото Meizu 17 Plus демонстрирует полностью безрамочный экран</h5>
+                          <p class="mb-1 text-truncate-4">В Сети появилось «живое» фото смартфона Meizu 17 Plus, причём гаджет получил полностью безрамочный экран. Среди других новшеств отмечена основная камера с 108-мегапиксельным датчиком и двумя сенсорами на 20 Мп. (adsbygoogle = window.adsbygoogle || ).push(); Анонс флагмана китайской компании,</p>
+                          <small class="text-muted text-muted">14 Feb 15:59 <small class="mx-1 align-text-top">•</small> Актуальные новости <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/6808298616481553349.html" class="text-muted stretched-link">6808298616481553349.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Sony Xperia 1.1 сможет снимать видео в формате 8K HDR</h5>
+                          <p class="mb-1 text-truncate-4">По данным сетевых источников, компания Sony работает одновременно над несколькими смартфонами. Речь идет о моделях Xperia 5 Plus, Xperia 9 и флагмане Xperia 1.1.</p>
+                          <small class="text-muted text-muted">14 Feb 15:47 <small class="mx-1 align-text-top">•</small> Анонсенс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/5323765049447813408.html" class="text-muted stretched-link">5323765049447813408.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Флагман Sony Xperia 1.1 сможет снимать видео с разрешением 8K</h5>
+                          <p class="mb-1 text-truncate-4">В Сети появилась информация касательно флагманского смартфона Xperia 1.1 от Sony. Как стало известно, данная модель будет оснащена камерой высочайшего качества, благодаря чему появится возможность снимать видео разрешением 8К. (adsbygoogle = window.adsbygoogle || ).push(); Как известно, Sony</p>
+                          <small class="text-muted text-muted">14 Feb 15:38 <small class="mx-1 align-text-top">•</small> Актуальные новости <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/6808298617293063422.html" class="text-muted stretched-link">6808298617293063422.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Безрамочный экран смартфона Meizu 17 Plus показали на «живом» изображении</h5>
+                          <p class="mb-1 text-truncate-4">Точной информации относительно того, действительно ли на фото Meizu 17 Plus, нет, но многие эксперты уверены, что это ожидаемый флагман. На «живом» изображении можно рассмотреть некоторые подробности о смартфоне. Так, подтверждается информация о процессоре Snapdragon 865 и флэш-памяти на 512 Гб.</p>
+                          <small class="text-muted text-muted">14 Feb 14:39 <small class="mx-1 align-text-top">•</small> Интересные новости OAnews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/4585421865468567216.html" class="text-muted stretched-link">4585421865468567216.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Xiaomi показала моноблок Ningmei CR600 по цене смартфона</h5>
+                          <p class="mb-1 text-truncate-4">Китайский бренд продолжает радовать клиентов новинками в сфере современных технологий.</p>
+                          <small class="text-muted text-muted">14 Feb 14:05 <small class="mx-1 align-text-top">•</small> Нью Информ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/4853830194119188175.html" class="text-muted stretched-link">4853830194119188175.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Компания Xiaomi выпустила компьютер-моноблок по цене смартфона</h5>
+                          <p class="mb-1 text-truncate-4">Компания Хiaomi выпустила компьютер-моноблок, его цена не превышает стоимость смартфона. Модель Ningmei CR600 построена на платформе Intel и получила монитор размером 23,8 дюйма по диагонали. (adsbygoogle = window.adsbygoogle || ).push(); Гаджет представлен китайским производителем</p>
+                          <small class="text-muted text-muted">14 Feb 13:57 <small class="mx-1 align-text-top">•</small> Актуальные новости <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/6808298617154203649.html" class="text-muted stretched-link">6808298617154203649.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">«Живое» фото Meizu 17 Plus демонстрирует полностью безрамочный экран</h5>
+                          <p class="mb-1 text-truncate-4">Мы уже сообщали, что на текущее полугодие намечен анонс флагманского смартфона Meizu 17 на платформе Snapdragon 865.</p>
+                          <small class="text-muted text-muted">14 Feb 13:39 <small class="mx-1 align-text-top">•</small> 3DNews - Daily Digital Digest <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/2198666502738384689.html" class="text-muted stretched-link">2198666502738384689.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Россияне заказывают новые складные смартфоны Samsung как подарок на праздники</h5>
+                          <p class="mb-1 text-truncate-4">Россияне проявили интерес к новым складным смартфонам Samsung Galaxy Z Flip, спрос на него выше, чем на Samsung Fold в прошлом году, и&amp;nbsp</p>
+                          <small class="text-muted text-muted">14 Feb 13:24 <small class="mx-1 align-text-top">•</small> ПРАЙМ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3731741383619422204.html" class="text-muted stretched-link">3731741383619422204.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Новый Motorola Razr испытали на&nbsp;ремонтопригодность</h5>
+                          <p class="mb-1 text-truncate-4">Специалисты iFixit проверили на ремонтопригодность новый, гибкий Motorola Razr. Спойлер: смартфон получил один балл из 10 возможных.</p>
+                          <small class="text-muted text-muted">14 Feb 13:15 <small class="mx-1 align-text-top">•</small> Popmech.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3004427682452478105.html" class="text-muted stretched-link">3004427682452478105.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Смартфон Realme X50 Pro 5G оснащен экраном Super AMOLED с частотой 90 Гц</h5>
+                          <p class="mb-1 text-truncate-4">Китайский производитель Realme опубликовал очередной рекламный постер новой модели бюджетного смартфона. Телефон оснастят экраном с максимальной частотой обновления в 90 Гц, как и у его прямого конкурента Xiaomi Mi 10. На устройстве будет двойная фронтальная камера, размещенная в верхнем левом углу</p>
+                          <small class="text-muted text-muted">14 Feb 12:46 <small class="mx-1 align-text-top">•</small> Интересные новости OAnews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/4585421864507175827.html" class="text-muted stretched-link">4585421864507175827.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Samsung и&nbsp;LG могут работать над&nbsp;портативными мониторами для&nbsp;смартфонов</h5>
+                          <p class="mb-1 text-truncate-4">В Сети появилась информация о том, что компании Samsung и LG заняты разработкой портативных мониторов для смартфонов.</p>
+                          <small class="text-muted text-muted">14 Feb 12:20 <small class="mx-1 align-text-top">•</small> Popmech.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/3004427683507320382.html" class="text-muted stretched-link">3004427683507320382.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">OPPO Find X2 Pro побил рекорд производительности в Geekbench</h5>
+                          <p class="mb-1 text-truncate-4">Синтетические бенчмарки — популярный способ определения производительности смартфонов. Количеством виртуальных «попугаев» порой мерятся не только пользователи, но и производители во время презентаций новинок. Результаты тестирования готовящегося к релизу флагмана OPPO Find X2 Pro засветились в Geekbench ещё до анонса — и оказались рекордно высокими.</p>
+                          <small class="text-muted text-muted">14 Feb 12:05 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/9178748522244134511.html" class="text-muted stretched-link">9178748522244134511.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Раскладушка Samsung Galaxy Z Flip поступила в продажу в России</h5>
+                          <p class="mb-1 text-truncate-4">Спустя всего несколько дней после официальной презентации гибкой раскладушки Samsung объявила о старте продаж новинки в российской рознице. Смартфон в двух цветовых решениях уже доступен в фирменных салонах Samsung и магазинах партнёров.</p>
+                          <small class="text-muted text-muted">14 Feb 11:40 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/9178748522289759823.html" class="text-muted stretched-link">9178748522289759823.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Ericsson установила новый рекорд скорости в сети 5G</h5>
+                          <p class="mb-1 text-truncate-4">По всему миру уже начали развёртываться мобильные сети пятого поколения, и телекоммуникационные компании продолжают дорабатывать и улучшать соответствующие технологии. Так, Ericsson объявила о новом рекорде скорости передачи данных с помощью технологий 5G при использовании коммерческого оборудования.</p>
+                          <small class="text-muted text-muted">14 Feb 10:07 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/9178748521966286765.html" class="text-muted stretched-link">9178748521966286765.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Слух: Samsung Galaxy S20 Ultra LTE и Ultra 5G — одна и та же модель</h5>
+                          <p class="mb-1 text-truncate-4">Авторитетный инсайдер Макс Вайнбах сделал в своём Twitter-блоге неожиданное заявление. Он утверждает, что несмотря на объявленную разницу в конфигурации, версии нового флагмана Samsung Galaxy S20 Ultra для работы в сетях LTE и 5G аппаратно вовсе не отличаются друг от друга — речь всего лишь о разнице в прошивке устройств.</p>
+                          <small class="text-muted text-muted">14 Feb 09:35 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/9178748521101867158.html" class="text-muted stretched-link">9178748521101867158.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">iFixit: Motorola RAZR — самый сложный смартфон для разборки и ремонта</h5>
+                          <p class="mb-1 text-truncate-4">Motorola RAZR (2019) — это не устройство для каждодневного использования, оно больше про эмоции. Ностальгия, смена поколения и вот это всё.</p>
+                          <small class="text-muted text-muted">14 Feb 09:24 <small class="mx-1 align-text-top">•</small> Wylsacom <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/521040204880126017.html" class="text-muted stretched-link">521040204880126017.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Motorola Razr 2019 получил минимальный балл за ремонтопригодность</h5>
+                          <p class="mb-1 text-truncate-4">Команда iFixit просто не могла пройти мимо раскладушки со складным дисплеем Motorola Razr.</p>
+                          <small class="text-muted text-muted">14 Feb 09:06 <small class="mx-1 align-text-top">•</small> iLenta <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/1360813307527378197.html" class="text-muted stretched-link">1360813307527378197.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">iFixit: Motorola Razr – одно из самых сложных устройств, которые приходилось разбирать</h5>
+                          <p class="mb-1 text-truncate-4">После испытаний на прочность блогером JerryRigEverything и журналистами издания CNET складной смартфон с гибким дисплеем Motorola Razr наконец попал в руки специалистов iFixit, которые поделились неутешительными результатами его разборки. И хотя производитель каждый раз подчёркивает сложность конструкции своего устройства, это сыграло не лучшим образом на его ремонтопригодности. Прежде всего в iFixit высоко оценили технические достижения, […]</p>
+                          <small class="text-muted text-muted">14 Feb 08:01 <small class="mx-1 align-text-top">•</small> ITC.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/349173167097466918.html" class="text-muted stretched-link">349173167097466918.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Hyundai представит новый концепт электрокара «Prophecy» на автосалоне в Женеве</h5>
+                    <p class="card-text text-muted">14 Feb 16:30 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse1">11  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse1">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hyundai представит новый концепт электрокара «Prophecy» на автосалоне в Женеве</h5>
+                          <p class="mb-1 text-truncate-4">Новый концепт воплощает красивый силуэт, подчеркнутый изящными изгибами, которые обеспечивают превосходную аэродинамику.</p>
+                          <small class="text-muted text-muted">14 Feb 16:30 <small class="mx-1 align-text-top">•</small> iGuides <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/2654693344852221248.html" class="text-muted stretched-link">2654693344852221248.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">У Volkswagen появилось новое кросс-купе</h5>
+                          <p class="mb-1 text-truncate-4">Список кроссоверов компании Volkswagen с названиями, начинающимися с Т, в ближайшее время пополнится еще одной купеобразной модификацией уже существующей модели. В конце этого года могут начаться продажи кросс-купе, которое Volkswagen построили вместе с китайским концерном FAW.</p>
+                          <small class="text-muted text-muted">14 Feb 15:22 <small class="mx-1 align-text-top">•</small> vesti.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/1094974871758623381.html" class="text-muted stretched-link">1094974871758623381.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hyundai показывает «Пророчество»: так будут выглядеть авто через пару лет</h5>
+                          <p class="mb-1 text-truncate-4">Презентация концепта EV&nbsp;Prophecy (переводится как «пророчество») пройдет 3&nbsp;марта на&nbsp;стенде компании на&nbsp;Женевском автосалоне.</p>
+                          <small class="text-muted text-muted">14 Feb 13:53 <small class="mx-1 align-text-top">•</small> www.zr.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/4770008255035252406.html" class="text-muted stretched-link">4770008255035252406.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Корейская Пифия: Hyundai показал тизер концепт-кара Prophecy</h5>
+                          <p class="mb-1 text-truncate-4">На женевском автосалоне корейцы порадуют новинкой в новой дизайнерской стилистике Hyundai. На предстоящем автосалоне в Женеве, стартующем 3 марта Prophecy представит концепт-кар Prophecy, который олицетворяет собой виденье дизайна будущих автомобилей марки. &amp;laquo;Наш концепт не следует</p>
+                          <small class="text-muted text-muted">14 Feb 13:43 <small class="mx-1 align-text-top">•</small> VistaNews.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/959227886049236347.html" class="text-muted stretched-link">959227886049236347.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Chery адаптировал кроссовер Tiggo 8 для продаж в России</h5>
+                          <p class="mb-1 text-truncate-4">Китайский автопроизводитель Chery адаптировал для российских условий эксплуатации новый семиместный кроссовер Tiggo 8. Об этом говорится в пресс-релизе, поступившем в «Известия» 14 февраля.</p>
+                          <small class="text-muted text-muted">14 Feb 13:30 <small class="mx-1 align-text-top">•</small> Известия <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/5071570188149216310.html" class="text-muted stretched-link">5071570188149216310.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hyundai привезет в Женеву «пророческий» концепт</h5>
+                          <p class="mb-1 text-truncate-4">Компания Hyundai опубликовала единственный тизер нового концепт-кара, который покажут на Женевском автосалоне. Новейшая разработка получила название Prophecy («Пророчество») и призвана продемонстрировать дальнейший вектор развития дизайна всех будущих электрических моделей марки. Чтобы сохранить интригу, производитель решил сохранить другие детали о новинке в секрете.</p>
+                          <small class="text-muted text-muted">14 Feb 13:06 <small class="mx-1 align-text-top">•</small> Вінницький бізнес портал "Vinbazar.com" <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3817100477569770192.html" class="text-muted stretched-link">3817100477569770192.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hyundai представит в Женеве спортивный концептуальный электрокар</h5>
+                          <p class="mb-1 text-truncate-4">На открывающемся в начале марта 2020 года в Женеве Международном автосалоне компания Hyundai Motor представит новый концепт электромобиля – «Prophecy». Дизайн концепта создан в новой стилистике бренда – «Sensuous Sportiness» («Чувственная спортивность»), воплощающую собой гармонию между четырьмя основными элементами: пропорцией, архитектурой, стилем и технологией.</p>
+                          <small class="text-muted text-muted">14 Feb 11:33 <small class="mx-1 align-text-top">•</small> autoconsulting.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/8434823274851314253.html" class="text-muted stretched-link">8434823274851314253.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Фастбек Hyundai Prophecy поделится идеями о&nbsp;дизайне</h5>
+                          <p class="mb-1 text-truncate-4">Компания Hyundai представит третьего марта в&nbsp;Женеве электрический концепт Prophecy, призванный вывести философию дизайна «Чувственная спортивность» на&nbsp;следующий уровень. «Prophecy не&nbsp;следует трендам, он&nbsp;подчёркивает вечную красоту, которая выдержит испытание временем», — заявил стилист Саньюп Ли. Заодно с&nbsp;фастбеком компания продемонстрирует стратегию электрификации.</p>
+                          <small class="text-muted text-muted">14 Feb 10:45 <small class="mx-1 align-text-top">•</small> drive2.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6970962120610001146.html" class="text-muted stretched-link">6970962120610001146.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В Женеве дебютирует новый концепт Hyundai EV Prophecy</h5>
+                          <p class="mb-1 text-truncate-4">Автомобильная компания Hyundai покажет 3 марта на автосалоне в Женеве (Швейцария) новую концептуальную модель EV Prophecy. Об этом говорится в пресс-релизе, поступившем в редакцию «Известий» 14 февраля.Судя по распространенному фирмой изображению, автомобиль представляет собой купе с широкими задними крыльями, светодиодными фонарями, а также спойлером на двери багажника. Концепт оснащен электрическим двигателем.Отмечается, что будущие серийные электромобили Hyundai получат некоторые элементы дизайна концепта EV Prophecy.</p>
+                          <small class="text-muted text-muted">14 Feb 10:08 <small class="mx-1 align-text-top">•</small> Известия <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/5071570188004398339.html" class="text-muted stretched-link">5071570188004398339.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Новый кроссовер VW&nbsp;замаскировали под&nbsp;Opel</h5>
+                          <p class="mb-1 text-truncate-4">Компания Volkswagen проводит испытания совершенно нового автомобиля, который поступит в&nbsp;продажу в&nbsp;течение двух лет.</p>
+                          <small class="text-muted text-muted">14 Feb 09:55 <small class="mx-1 align-text-top">•</small> www.zr.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/4770008254165664222.html" class="text-muted stretched-link">4770008254165664222.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Hyundai привезет в Женеву «пророческий» концепт</h5>
+                          <p class="mb-1 text-truncate-4">Южнокорейская марка привезет на Женевский автосалон особый электрокар, символизирующий истинные цели производителя</p>
+                          <small class="text-muted text-muted">14 Feb 09:15 <small class="mx-1 align-text-top">•</small> Автоцентр <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/3122742778319026176.html" class="text-muted stretched-link">3122742778319026176.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Найден способ продолжить получать обновления Windows 7</h5>
+                    <p class="card-text text-muted">14 Feb 11:29 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse2">6  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse2">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Найден способ продолжить получать обновления Windows 7</h5>
+                          <p class="mb-1 text-truncate-4">Компания Microsoft официально прекратила поддержку операционной системы&nbsp;Windows 7 для обычных пользователей еще 14 января этого года. Однако в февраля она выдала еще один апдейт, который исправил «прощальный баг» с черным экраном.</p>
+                          <small class="text-muted text-muted">14 Feb 11:29 <small class="mx-1 align-text-top">•</small> Вечерний курьер <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/1279199268848327107.html" class="text-muted stretched-link">1279199268848327107.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Пользователи Windows 7 научились бесплатно получать обновления ОС</h5>
+                          <p class="mb-1 text-truncate-4">Участники форума My Digital Life создали программный инструмент под названием BypassESU, позволяющий обойти существующий механизм проверки ключей ESU и установить обновление на компьютер с некорпоративной версией Windows 7.</p>
+                          <small class="text-muted text-muted">14 Feb 11:20 <small class="mx-1 align-text-top">•</small> rspectr.com <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/5916593373566256836.html" class="text-muted stretched-link">5916593373566256836.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Найден способ продолжить получать обновления Windows 7</h5>
+                          <p class="mb-1 text-truncate-4">Умельцы нашли лазейку, позволяющую неофициально получать предназначенные для корпоративных клиентов обновления Windows 7, расширенная поддержка которой прекращена 14 января.</p>
+                          <small class="text-muted text-muted">14 Feb 10:27 <small class="mx-1 align-text-top">•</small> vesti.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/1094974871356045089.html" class="text-muted stretched-link">1094974871356045089.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Найден способ получать обновления Windows 7 бесплатно</h5>
+                          <p class="mb-1 text-truncate-4">Как известно, компания Microsoft прекратила поддержку Windows 7 14 января. Несмотря на это, умелые пользователи Сети обнаружили способ продолжить получать обновления бесплатно. (adsbygoogle = window.adsbygoogle || ).push(); В настоящий момент официальная поддержка Microsoft не</p>
+                          <small class="text-muted text-muted">14 Feb 10:20 <small class="mx-1 align-text-top">•</small> Актуальные новости <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6808298616917817609.html" class="text-muted stretched-link">6808298616917817609.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Новый патч Microsoft снова «сломал» Windows 10</h5>
+                          <p class="mb-1 text-truncate-4">Обновления для Windows 10 уже не раз вызывали у пользователей различные проблемы с операционкой — и очередной патч, распространение которого началось на этой неделе, не стал исключением. При этом неполадки оказались куда серьёзнее «отваливающегося» сетевого соединения или «красного экрана» при включении.</p>
+                          <small class="text-muted text-muted">14 Feb 09:04 <small class="mx-1 align-text-top">•</small> 4PDA - Новости мира мобильных устройств <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/9178748522571494389.html" class="text-muted stretched-link">9178748522571494389.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Найден способ продолжить получать патчи обновления Windows 7</h5>
+                          <p class="mb-1 text-truncate-4">Windows 7 официально прекратили обновлять еще 14 января, при этом после этого компания Microsoft вынуждена была выпустить дополнительный патч исправляющий ошибки, связанные с обоями рабочего стола.</p>
+                          <small class="text-muted text-muted">14 Feb 09:03 <small class="mx-1 align-text-top">•</small> @ASTERA: Новости IT и финансов <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/2000617736067340805.html" class="text-muted stretched-link">2000617736067340805.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Chery раскрыла новые данные 7-местного кроссовера Tiggo 8 для России</h5>
+                    <p class="card-text text-muted">14 Feb 16:32 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse3">5  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse3">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Chery раскрыла новые данные 7-местного кроссовера Tiggo 8 для России</h5>
+                          <p class="mb-1 text-truncate-4">Китайская марка рассказала о двигателе и нюансах комплектации нового кроссовера для российского рынка.</p>
+                          <small class="text-muted text-muted">14 Feb 16:32 <small class="mx-1 align-text-top">•</small> vesti.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/1094974872638389338.html" class="text-muted stretched-link">1094974872638389338.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Продажи кроссовера Skoda Karoq начались в России</h5>
+                          <p class="mb-1 text-truncate-4">Новый кроссовер от чешской марки поступил в продажу в двух средних комплектациях, тогда как ближе к концу года станет доступная базовая и топовая комплектации модели. Накануне СМИ удалось узнать во сколько обойдется начальная комплектация, о чем более подробно портал «ТвоёАвто» уже сообщал. Официальные цены на комплектации назовут позднее. Что касается начала российских продаж кроссовера Skoda […]</p>
+                          <small class="text-muted text-muted">14 Feb 13:07 <small class="mx-1 align-text-top">•</small> ТВОЕ АВТО <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/8808447342093239185.html" class="text-muted stretched-link">8808447342093239185.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В России начались продажи нового кроссовера Skoda Karoq</h5>
+                          <p class="mb-1 text-truncate-4">Производство модели налажено на предприятии бренда, расположенном в Нижнем Новгороде. Автомобиль пока доступен для заказа в двух комплектациях и с единственным 1,4-литровым бензиновым двигателем мощностью 150 л. с., работающим в паре с восьмиступенчатой автоматической коробкой передач. Привод — только на передние колеса.</p>
+                          <small class="text-muted text-muted">14 Feb 12:19 <small class="mx-1 align-text-top">•</small> Грозный Информ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/1584399807965465119.html" class="text-muted stretched-link">1584399807965465119.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Продажи кроссовера Skoda Karoq стартовали в России</h5>
+                          <p class="mb-1 text-truncate-4">Российские дилеры марки Skoda начали продажи компактного кроссовера Karoq. В первое время долгожданный SUV будут предлагать только с турбированным мотором 150 л.с. и передним приводом по цене от 1,49 млн рублей</p>
+                          <small class="text-muted text-muted">14 Feb 09:01 <small class="mx-1 align-text-top">•</small> Российская газета <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/9048800180973016952.html" class="text-muted stretched-link">9048800180973016952.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В России начались продажи нового кроссовера Skoda Karoq</h5>
+                          <p class="mb-1 text-truncate-4">Чешская компания Skoda начинает продажи на российском рынке нового кроссовера Karoq. Об этом 14 февраля сообщает Autonews.</p>
+                          <small class="text-muted text-muted">14 Feb 08:30 <small class="mx-1 align-text-top">•</small> Известия <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/5071570187895622736.html" class="text-muted stretched-link">5071570187895622736.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">США обвинили Huawei в промышленном шпионаже</h5>
+                    <p class="card-text text-muted">14 Feb 15:15 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse4">4  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse4">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">США обвинили Huawei в промышленном шпионаже</h5>
+                          <p class="mb-1 text-truncate-4">Китайская компания могла завладеть информацией, которая была защищена авторским правом.</p>
+                          <small class="text-muted text-muted">14 Feb 15:15 <small class="mx-1 align-text-top">•</small> charter97.org <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/5456187184888319427.html" class="text-muted stretched-link">5456187184888319427.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">США обвинили Huawei в промышленном шпионаже</h5>
+                          <p class="mb-1 text-truncate-4">Минюст США выдвинул новое обвинение против китайской компании Huawei. На этот раз ее обвиняют в сговоре с целью похищения коммерческой тайны. Об этом сообщается на сайте министерства. В заключении говорится, что&nbsp;Huawei&nbsp;и&nbsp;ее дочерние компании (Huawei Device, Huawei USA, Futurewei и оператор Skycom</p>
+                          <small class="text-muted text-muted">14 Feb 11:11 <small class="mx-1 align-text-top">•</small> The Insider <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/7895878629307850305.html" class="text-muted stretched-link">7895878629307850305.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">США обвиняют Huawei в краже технологий и коммерческих тайн</h5>
+                          <p class="mb-1 text-truncate-4">Начался новый этап в торговой войне.</p>
+                          <small class="text-muted text-muted">14 Feb 09:05 <small class="mx-1 align-text-top">•</small> iGuides <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/2654693344096094949.html" class="text-muted stretched-link">2654693344096094949.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">США обвинили Huawei в краже технологий американских компаний</h5>
+                          <p class="mb-1 text-truncate-4">Huawei объединялась с американскими компаниями и воровала чужие технологии.</p>
+                          <small class="text-muted text-muted">14 Feb 08:36 <small class="mx-1 align-text-top">•</small> iPhones.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/5383474797419322540.html" class="text-muted stretched-link">5383474797419322540.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Первые фотографии с шейкдауна Mercedes W11</h5>
+                    <p class="card-text text-muted">14 Feb 12:04 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse5">4  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse5">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Первые фотографии с шейкдауна Mercedes W11</h5>
+                          <p class="mb-1 text-truncate-4">Новая машина действующих чемпионов мира Формулы 1 дебютировала на трассе</p>
+                          <small class="text-muted text-muted">14 Feb 12:04 <small class="mx-1 align-text-top">•</small> Autosport.com.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/4598176793510230940.html" class="text-muted stretched-link">4598176793510230940.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В Mercedes показали новую машину</h5>
+                          <p class="mb-1 text-truncate-4">Пресс-служба Mercedes опубликовала компьютерные изображения новой машины – Mercedes-AMG F1 W11 EQ Performance, с которой команда рассчитывает продолжить</p>
+                          <small class="text-muted text-muted">14 Feb 09:17 <small class="mx-1 align-text-top">•</small> EURO.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6352910115207472124.html" class="text-muted stretched-link">6352910115207472124.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В Mercedes показали новую машину</h5>
+                          <p class="mb-1 text-truncate-4">Пресс-служба Mercedes опубликовала компьютерные изображения новой машины – Mercedes-AMG F1 W11 EQ Performance...</p>
+                          <small class="text-muted text-muted">14 Feb 08:41 <small class="mx-1 align-text-top">•</small> www.f1news.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/5775373344848394995.html" class="text-muted stretched-link">5775373344848394995.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Команда Mercedes показала новую машину W11</h5>
+                          <p class="mb-1 text-truncate-4">За рулем этого гоночного автомобиля Льюис Хэмилтон попробует повторить рекорды Михаэля Шумахера по количеству побед и титулов</p>
+                          <small class="text-muted text-muted">14 Feb 08:33 <small class="mx-1 align-text-top">•</small> Autosport.com.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/4598176792317415163.html" class="text-muted stretched-link">4598176792317415163.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Абоненты Tele2 чаще всего ищут любовь в Tinder</h5>
+                    <p class="card-text text-muted">14 Feb 14:40 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse6">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse6">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Абоненты Tele2 чаще всего ищут любовь в Tinder</h5>
+                          <p class="mb-1 text-truncate-4">На правах рекламы</p>
+                          <small class="text-muted text-muted">14 Feb 14:40 <small class="mx-1 align-text-top">•</small> Время Н <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/4530783549793870452.html" class="text-muted stretched-link">4530783549793870452.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Абоненты Tele2 чаще всего ищут любовь в Tinder</h5>
+                          <p class="mb-1 text-truncate-4">Tele2 узнала, какие сервисы для знакомств пользуются наибольшей популярностью среди абонентов компании, и кто чаще всего ищет вторую половину в режиме онлайн</p>
+                          <small class="text-muted text-muted">14 Feb 13:27 <small class="mx-1 align-text-top">•</small> Петрозаводск ГОВОРИТ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/652432217615352677.html" class="text-muted stretched-link">652432217615352677.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Абоненты Tele2 чаще всего ищут любовь в&nbsp;Tinder</h5>
+                          <p class="mb-1 text-truncate-4">Tele2 узнала, какие сервисы для знакомств пользуются наибольшей популярностью среди абонентов компании, и&nbsp;кто чаще всего ищет вторую половину в&nbsp;режиме онлайн. Также оператор проанализировал активность клиентов в&nbsp;приложении Tele2 TV&nbsp;и&nbsp;составил рейтинг фильмов и&nbsp;сериалов, которым отдают предпочтение абоненты в&nbsp;День Святого Валентина.</p>
+                          <small class="text-muted text-muted">14 Feb 13:11 <small class="mx-1 align-text-top">•</small> Пенза-пресс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3933105860285019946.html" class="text-muted stretched-link">3933105860285019946.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Электрокроссовер Ford Mach для Европы получит увеличенный запас хода</h5>
+                    <p class="card-text text-muted">14 Feb 12:01 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse7">3  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse7">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Электрокроссовер Ford Mach для Европы получит увеличенный запас хода</h5>
+                          <p class="mb-1 text-truncate-4">Презентация автомобиля состоялась в Лондоне, где и был показан автомобиль.</p>
+                          <small class="text-muted text-muted">14 Feb 12:01 <small class="mx-1 align-text-top">•</small> Телеграф <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/1818969636840297159.html" class="text-muted stretched-link">1818969636840297159.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Электрокроссовер Ford Mach для Европы получит увеличенный запас хода</h5>
+                          <p class="mb-1 text-truncate-4">Американский автопроизводитель Ford официально представил свой электрокар Mach-E, который будет поставляться в Европе. Презентация кроссовера состоялась в Лондоне.</p>
+                          <small class="text-muted text-muted">14 Feb 10:38 <small class="mx-1 align-text-top">•</small> Вечерний курьер <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/1279199270360899135.html" class="text-muted stretched-link">1279199270360899135.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Ford представил электрокроссовер для Европы с запасом хода до 600 км</h5>
+                          <p class="mb-1 text-truncate-4">Компания Ford официально представила электрический кроссовер Mustang Mach-E на специальном мероприятии в Лондоне. Запас хода автомобиля варьируется от 420 до 600 км, а мощность электромоторв — от 258 до 338 л.с.</p>
+                          <small class="text-muted text-muted">14 Feb 10:27 <small class="mx-1 align-text-top">•</small> autoconsulting.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/8434823276043476554.html" class="text-muted stretched-link">8434823276043476554.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">На аукцион выставлен необычный автомобиль с&nbsp;двумя раздельными кабинами</h5>
+                    <p class="card-text text-muted">14 Feb 17:55 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse8">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse8">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">На аукцион выставлен необычный автомобиль с&nbsp;двумя раздельными кабинами</h5>
+                          <p class="mb-1 text-truncate-4">На торги выставлен родстер Italdesign Aztec 1988 года, оборудованный двумя раздельными кабинами для пассажира и водителя.</p>
+                          <small class="text-muted text-muted">14 Feb 17:55 <small class="mx-1 align-text-top">•</small> Popmech.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/3004427682041606729.html" class="text-muted stretched-link">3004427682041606729.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">На аукцион выставлен необычный автомобиль с&nbsp;двумя раздельными кабинами</h5>
+                          <p class="mb-1 text-truncate-4">На торги выставлен родстер Italdesign Aztec 1988 года, оборудованный двумя раздельными кабинами для пассажира и водителя.</p>
+                          <small class="text-muted text-muted">14 Feb 17:55 <small class="mx-1 align-text-top">•</small> Popmech.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/3004427682171403319.html" class="text-muted stretched-link">3004427682171403319.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Пьяное вождение: всплыли подробности смертельного ДТП в Харькове</h5>
+                    <p class="card-text text-muted">14 Feb 17:26 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse9">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse9">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Пьяное вождение: всплыли подробности смертельного ДТП в Харькове</h5>
+                          <p class="mb-1 text-truncate-4">Водителю грозит до 10 лет тюрьмы</p>
+                          <small class="text-muted text-muted">14 Feb 17:26 <small class="mx-1 align-text-top">•</small> Расследования <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/397742602049601882.html" class="text-muted stretched-link">397742602049601882.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Агрессивного и пьяного водителя задержали в Будённовске</h5>
+                          <p class="mb-1 text-truncate-4">В Будённовске автоинспекторы остановили пьяного водителя. Правда, перед этим мужчина пытался скрыться от полицейских в проулке.</p>
+                          <small class="text-muted text-muted">14 Feb 13:52 <small class="mx-1 align-text-top">•</small> Ставропольская правда <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/211314379902542129.html" class="text-muted stretched-link">211314379902542129.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Сотовая связь МТС на трассе М-11 заработает с апреля</h5>
+                    <p class="card-text text-muted">14 Feb 17:24 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse10">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse10">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Сотовая связь МТС на трассе М-11 заработает с апреля</h5>
+                          <p class="mb-1 text-truncate-4">Сейчас завершается монтаж оборудования.</p>
+                          <small class="text-muted text-muted">14 Feb 17:24 <small class="mx-1 align-text-top">•</small> Bankir.Ru информационное агентство <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/3201225780991644083.html" class="text-muted stretched-link">3201225780991644083.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">С апреля этого года заработает сотовая связь на трассе М-11 Нева</h5>
+                          <p class="mb-1 text-truncate-4">На скоростной платной трассе М-11 «Нева» (Москва - Санкт-Петербург) с апреля 2020 года заработает сотовая связь. Об этом сообщает пресс-служба ГК «Автодор» в пятницу, 14 февраля.</p>
+                          <small class="text-muted text-muted">14 Feb 10:27 <small class="mx-1 align-text-top">•</small> ДорИнфо <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/2259520030514808007.html" class="text-muted stretched-link">2259520030514808007.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Жёсткое ДТП во Владивостоке попало на камеру видеонаблюдения</h5>
+                    <p class="card-text text-muted">14 Feb 17:10 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse11">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse11">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Жёсткое ДТП во Владивостоке попало на камеру видеонаблюдения</h5>
+                          <p class="mb-1 text-truncate-4">Транспортные средства получили сильные механические повреждения</p>
+                          <small class="text-muted text-muted">14 Feb 17:10 <small class="mx-1 align-text-top">•</small> VladNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/6104713678701090279.html" class="text-muted stretched-link">6104713678701090279.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Грузовик протаранил припаркованное авто на Второй Речке</h5>
+                          <p class="mb-1 text-truncate-4">Серьезное дорожно-транспортное происшествие произошло на улице Енисейская, 18, сообщает РИА VladNews со ссылкой на группу «Экипажи ДПС» в социальной сети Инстаграм.</p>
+                          <small class="text-muted text-muted">14 Feb 13:40 <small class="mx-1 align-text-top">•</small> VladNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/6104713679783175185.html" class="text-muted stretched-link">6104713679783175185.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Сотрудник Google рассказал об опасности сторонних оболочек для Android</h5>
+                    <p class="card-text text-muted">14 Feb 17:00 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse12">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse12">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Сотрудник Google рассказал об опасности сторонних оболочек для Android</h5>
+                          <p class="mb-1 text-truncate-4">Производители редко устанавливают на смартфоны Android в чистом виде. Почти все бренды стараются модифицировать операционную систему под свои нужды.</p>
+                          <small class="text-muted text-muted">14 Feb 17:00 <small class="mx-1 align-text-top">•</small> iGuides <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/17/2654693344067166788.html" class="text-muted stretched-link">2654693344067166788.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Манипуляции Samsung с ядром Android создали дополнительный вектор атаки</h5>
+                          <p class="mb-1 text-truncate-4">Исследователи в области кибербезопасности из проекта Google Project Zero недовольны манипуляциями Samsung с ядром мобильной операционной системы Android. Эксперты считают, что корейский техногигант</p>
+                          <small class="text-muted text-muted">14 Feb 09:16 <small class="mx-1 align-text-top">•</small> Anti-Malware <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/3942295571908048154.html" class="text-muted stretched-link">3942295571908048154.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Очередь на новый Suzuki Jimny достигла десяти месяцев</h5>
+                    <p class="card-text text-muted">14 Feb 16:10 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse13">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse13">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Очередь на новый Suzuki Jimny достигла десяти месяцев</h5>
+                          <p class="mb-1 text-truncate-4">Нехватку автомобилей нового поколения компактного внедорожника Suzuki Jimny испытывают не только российские дилеры, но и дилеры в родной для марки Японии. Местные автосалоны сообщают о том, что высокий спрос на новый «Джимни» вызвал длинные очереди на этот автомобиль. Сейчас среднее время ожидания нового Jimny в Японии составляет десять месяцев. &nbsp;</p>
+                          <small class="text-muted text-muted">14 Feb 16:10 <small class="mx-1 align-text-top">•</small> Daily-Motor.Ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/5895854668800464613.html" class="text-muted stretched-link">5895854668800464613.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Ажиотажный спрос: новый внедорожник Suzuki бьет рекорды продаж</h5>
+                          <p class="mb-1 text-truncate-4">Очередь на автомобиль растянулась на 10 месяцев</p>
+                          <small class="text-muted text-muted">14 Feb 16:03 <small class="mx-1 align-text-top">•</small> Авто <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/397742603574095819.html" class="text-muted stretched-link">397742603574095819.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Освобождение от&nbsp;налога и&nbsp;бесплатная зарядка: в&nbsp;чём преимущества электрокаров</h5>
+                    <p class="card-text text-muted">14 Feb 16:08 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse14">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse14">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Освобождение от&nbsp;налога и&nbsp;бесплатная зарядка: в&nbsp;чём преимущества электрокаров</h5>
+                          <p class="mb-1 text-truncate-4">Компания «Россети Сибирь» продолжит в 2020 году формирование инфраструктуры для зарядки электрокаров на в регионах присутствия.</p>
+                          <small class="text-muted text-muted">14 Feb 16:08 <small class="mx-1 align-text-top">•</small> ВашГород.ру <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/4042890083378615009.html" class="text-muted stretched-link">4042890083378615009.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Освобождение от&nbsp;налога и&nbsp;бесплатная зарядка: в&nbsp;чём преимущества электрокаров</h5>
+                          <p class="mb-1 text-truncate-4">Компания «Россети Сибирь» продолжит в 2020 году формирование инфраструктуры для зарядки электрокаров на в регионах присутствия.</p>
+                          <small class="text-muted text-muted">14 Feb 16:05 <small class="mx-1 align-text-top">•</small> ВашГород.ру <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/16/4042890082788398510.html" class="text-muted stretched-link">4042890082788398510.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">DS 7 Crossback – победитель «Авто года в Украине 2020» в номинации «Лучший дизайн»</h5>
+                    <p class="card-text text-muted">14 Feb 15:50 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse15">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse15">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">DS 7 Crossback – победитель «Авто года в Украине 2020» в номинации «Лучший дизайн»</h5>
+                          <p class="mb-1 text-truncate-4">Кроссовер DS 7 Crossback – флагман Бренда DS Automobiles – заслужил титул «Авто года в Украине 2020» в номинации «Лучший дизайн». Модель покорила жюри конкурса и всех автолюбителей Украины своей эксклюзивной внешностью и утонченным интерьером. Чувства и эмоции, оригинальность и смелость – основы, на которых строится философия Бренда DS Automobiles. Каждый автомобиль DS являет собой не просто «средство передвижения», а настоящий «объект автомобильного искусства». Поэтому неудивительно, что кроссовер DS 7 Crossback уже не раз получал призы и награды за смелый дизайн, оригинальный стиль, утонченный салон. Радует, что украинские автолюбители разделяют европейские ценности – и это принесло новую победу для DS 7 Crossback: Авто года в Украине 2020 в номинации «Дизайн»! Бренд DS Automobiles имеет огромное историческое наследие – это настоящий «Автомобили для Президентов»: Шарль де Голь, Жорж Помпиду, Франсуа Олланд, Эммануэль Макрон – каждый из них ездил на автомобилях DS своего времени. Бренд DS Automobiles с такой…</p>
+                          <small class="text-muted text-muted">14 Feb 15:50 <small class="mx-1 align-text-top">•</small> Автоцентр <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/3122742780023498321.html" class="text-muted stretched-link">3122742780023498321.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">DS 7 Crossback стал «Авто Года в Украине 2020» в номинации «Лучший дизайн»</h5>
+                          <p class="mb-1 text-truncate-4">Кроссовер DS 7 Crossback – флагман Бренда DS Automobiles – заслужил титул «Авто года в Украине 2020» в номинации «Лучший дизайн». Модель покорила жюри конкурса и всех автолюбителей Украины своей эксклюзивной внешностью и утонченным интерьером.</p>
+                          <small class="text-muted text-muted">14 Feb 14:25 <small class="mx-1 align-text-top">•</small> autoconsulting.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/8434823275759236170.html" class="text-muted stretched-link">8434823275759236170.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Еще чуть-чуть: В США снова продлили лицензию для работы с Huawei</h5>
+                    <p class="card-text text-muted">14 Feb 15:34 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse16">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse16">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Еще чуть-чуть: В США снова продлили лицензию для работы с Huawei</h5>
+                          <p class="mb-1 text-truncate-4">Американские власти в очередной раз продлили местным телекоммуникационным компаниям лицензию на работу с Huawei. На этот раз разрешение на сотрудничество выдано на более короткий срок — всего на 45 дней, передает 3Dnews.</p>
+                          <small class="text-muted text-muted">14 Feb 15:34 <small class="mx-1 align-text-top">•</small> Mediasat <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/2309083700716274791.html" class="text-muted stretched-link">2309083700716274791.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">США вновь продлили разрешение на работу с Huawei, теперь на 45 дней</h5>
+                          <p class="mb-1 text-truncate-4">Вашингтон вновь продлил временную генеральную лицензию, позволяющую американским компаниям вести бизнес с Huawei.</p>
+                          <small class="text-muted text-muted">14 Feb 11:56 <small class="mx-1 align-text-top">•</small> 3DNews - Daily Digital Digest <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/2198666502959163502.html" class="text-muted stretched-link">2198666502959163502.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Восстановленный 16-дюймовый MacBook Pro обойдется дешевле</h5>
+                    <p class="card-text text-muted">14 Feb 15:22 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse17">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse17">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Восстановленный 16-дюймовый MacBook Pro обойдется дешевле</h5>
+                          <p class="mb-1 text-truncate-4">Восстановленная версия нового MacBook Pro с экраном в 16 дюймов можно купить за 2040 долларов.</p>
+                          <small class="text-muted text-muted">14 Feb 15:22 <small class="mx-1 align-text-top">•</small> Анонсенс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/15/5323765049758823805.html" class="text-muted stretched-link">5323765049758823805.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Apple начала продавать восстановленные 16-дюймовые MacBook Pro (можно сэкономить до $420)</h5>
+                          <p class="mb-1 text-truncate-4">Apple в очередной раз обновила ассортимент восстановленной продукции своего онлайн-магазина, добавив в него восстановленные 16-дюймовые MacBook Pro спустя всего три месяца после выхода устройства на рынок. Скидка (по сравнению с полностью новым устройством) на различные конфигурации в среднем составляет около 15% — например, базовая конфигурация с шестиядерным Core i7, 16 ГБ ОЗУ, накопителем объемом 512 […]</p>
+                          <small class="text-muted text-muted">14 Feb 13:07 <small class="mx-1 align-text-top">•</small> ITC.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/349173167093763332.html" class="text-muted stretched-link">349173167093763332.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Верхний Ларс открыт для всех видов транспорта</h5>
+                    <p class="card-text text-muted">14 Feb 14:53 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse18">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse18">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Верхний Ларс открыт для всех видов транспорта</h5>
+                          <p class="mb-1 text-truncate-4">Движение трайлеров на&nbsp;участке Гудаури&nbsp;— Коби дороги Мцхета&nbsp;— Степанцминда&nbsp;— Ларс возобновилось, дорога открыта для всех видов транспорта, сообщил департамент автомобильных дорог Министерства регионального развития и&nbsp;инфраструктуры Грузии.</p>
+                          <small class="text-muted text-muted">14 Feb 14:53 <small class="mx-1 align-text-top">•</small> EADaily <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/4311596831354973007.html" class="text-muted stretched-link">4311596831354973007.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Дорогу на Верхний Ларс открыли для всех видов транспорта</h5>
+                          <p class="mb-1 text-truncate-4">Машины с прицепом и полуприцепом, и автобусы вместимостью 30 и более мест будут передвигаться по тоннелям в одностороннем порядке</p>
+                          <small class="text-muted text-muted">14 Feb 12:46 <small class="mx-1 align-text-top">•</small> Sputnik Грузия <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/405182453647665641.html" class="text-muted stretched-link">405182453647665641.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Опрос: треть пользователей сайтов знакомств столкнулись с мошенниками в 2019 году</h5>
+                    <p class="card-text text-muted">14 Feb 14:27 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse19">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse19">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Опрос: треть пользователей сайтов знакомств столкнулись с мошенниками в 2019 году</h5>
+                          <p class="mb-1 text-truncate-4">Около 34% пользователей сайтов знакомств в 2019 году сталкивались с мошенниками, следует из данных опроса компании ESET.</p>
+                          <small class="text-muted text-muted">14 Feb 14:27 <small class="mx-1 align-text-top">•</small> RT на русском <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/7037402441530752856.html" class="text-muted stretched-link">7037402441530752856.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Около 34% пользователей сайтов знакомств наткнулись на мошенников в 2019 году</h5>
+                          <p class="mb-1 text-truncate-4">В опросе приняли участие около 2 тысяч российских пользователей.</p>
+                          <small class="text-muted text-muted">14 Feb 14:23 <small class="mx-1 align-text-top">•</small> РИАМО <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/14/3446964290334679468.html" class="text-muted stretched-link">3446964290334679468.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Россияне в 2019 году потратили $19 млн в приложениях для знакомств</h5>
+                    <p class="card-text text-muted">14 Feb 13:31 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse20">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse20">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Россияне в 2019 году потратили $19 млн в приложениях для знакомств</h5>
+                          <p class="mb-1 text-truncate-4">Пользователи в России за 2019 год потратили в $19 млн в десяти самых популярных приложениях для знакомств. Как сообщили в исследовательской компании App Annie, лидером по популярности... #AppAnnie</p>
+                          <small class="text-muted text-muted">14 Feb 13:31 <small class="mx-1 align-text-top">•</small> Searchengines.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/4925441003193940611.html" class="text-muted stretched-link">4925441003193940611.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">App Annie: российские пользователи в 2019 году потратили $19 млн в приложениях для знакомств</h5>
+                          <p class="mb-1 text-truncate-4">Самым популярным приложением для знакомств в России стал Tinder.</p>
+                          <small class="text-muted text-muted">14 Feb 09:59 <small class="mx-1 align-text-top">•</small> vc.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/2601641152934810572.html" class="text-muted stretched-link">2601641152934810572.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">В Днепре девушка на внедорожнике протаранила поезд</h5>
+                    <p class="card-text text-muted">14 Feb 13:17 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse21">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse21">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В Днепре девушка на внедорожнике протаранила поезд</h5>
+                          <p class="mb-1 text-truncate-4">Девушка-водитель совершала обгон грузовика, стоявшего на запрещающий сигнал, и не заметила двигавшийся состав.</p>
+                          <small class="text-muted text-muted">14 Feb 13:17 <small class="mx-1 align-text-top">•</small> Новости Украины - From-UA <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/4799432767213598183.html" class="text-muted stretched-link">4799432767213598183.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В Днепре девушка на внедорожнике врезалась в поезд</h5>
+                          <p class="mb-1 text-truncate-4">Девушка-водитель совершала обгон грузовика, стоявшего на запрещающий сигнал, и не заметила двигавшийся состав.</p>
+                          <small class="text-muted text-muted">14 Feb 12:19 <small class="mx-1 align-text-top">•</small> Корреспондент.net <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/1688417002416103619.html" class="text-muted stretched-link">1688417002416103619.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Спортивную версию Ford Puma заметили без камуфляжа</h5>
+                    <p class="card-text text-muted">14 Feb 13:04 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse22">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse22">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Спортивную версию Ford Puma заметили без камуфляжа</h5>
+                          <p class="mb-1 text-truncate-4">Несмотря на то, что европейские покупатели до сих пор не дождались обычной версии кроссовера, производитель уже вывел на тесты его спортивную версию. При этом удивительно, что на новинке, попавшей в объективы фотошпионов, отсутствует камуфляжная пленка, благодаря чему мы можем более подробно рассмотреть автомобиль как снаружи, так и внутри.</p>
+                          <small class="text-muted text-muted">14 Feb 13:04 <small class="mx-1 align-text-top">•</small> Вінницький бізнес портал "Vinbazar.com" <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/3817100479098213203.html" class="text-muted stretched-link">3817100479098213203.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Спортивную версию Ford Puma заметили без камуфляжа</h5>
+                          <p class="mb-1 text-truncate-4">Премьера кроссовера Ford Puma ST запланирована на лето</p>
+                          <small class="text-muted text-muted">14 Feb 08:10 <small class="mx-1 align-text-top">•</small> Автоцентр <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/3122742778534870222.html" class="text-muted stretched-link">3122742778534870222.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Huawei отрицает существование «бекдоров»</h5>
+                    <p class="card-text text-muted">14 Feb 13:03 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse23">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse23">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Huawei отрицает существование «бекдоров»</h5>
+                          <p class="mb-1 text-truncate-4">Компания Huawei сделала официальное заявление в связи с публикацией в Wall Street Journal информации о наличии в ее телекоммуникационном оборудовании, так называемых, бекдоров.</p>
+                          <small class="text-muted text-muted">14 Feb 13:03 <small class="mx-1 align-text-top">•</small> Компьютерное Обозрение <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/13/8553547643162460507.html" class="text-muted stretched-link">8553547643162460507.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Канадский оператор связи Telus намерен использовать оборудование Huawei в своей 5G-сети</h5>
+                          <p class="mb-1 text-truncate-4">Канадская телекоммуникационная компания Telus Corp.</p>
+                          <small class="text-muted text-muted">14 Feb 10:40 <small class="mx-1 align-text-top">•</small> 3DNews - Daily Digital Digest <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/2198666502864614690.html" class="text-muted stretched-link">2198666502864614690.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Большинство уязвимостей веб-приложений содержится в исходном коде</h5>
+                    <p class="card-text text-muted">14 Feb 12:25 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse24">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse24">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Большинство уязвимостей веб-приложений содержится в исходном коде</h5>
+                          <p class="mb-1 text-truncate-4">Эксперты Positive Technologies проанализировали состояние защищенности веб-приложений и&nbsp;выяснили, что в&nbsp;девяти случаях из&nbsp;десяти злоумышленники могут атаковать посетителей сайта, 16%&nbsp;приложений содержат уязвимости, позволяющие получить полный контроль над системой, а&nbsp;в&nbsp;8% случаев&nbsp;– атаковать внутреннюю сеть компании. Кроме того, получив полный доступ к&nbsp;веб-серверу, хакеры могут размещать на&nbsp;атакуемом сайте собственный контент (выполнять дефейс) или даже атаковать его посетителей, например, заражая их&nbsp;компьютеры&nbsp;ВПО.</p>
+                          <small class="text-muted text-muted">14 Feb 12:25 <small class="mx-1 align-text-top">•</small> Компьютерное Обозрение <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/12/8553547642663750999.html" class="text-muted stretched-link">8553547642663750999.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Эксперты Positive Technologies рассказали об уязвимостях веб-приложений</h5>
+                          <p class="mb-1 text-truncate-4">Хакеры часто эксплуатируют уязвимости, существующие в веб-приложениях, поэтому эксперты в сфере информационной безопасности из компании Positive Technologies провели анализ защищенности таких решений, как "личные кабинеты" на сайтах. Анализ показал, что девять из десяти веб-приложений позволяют киберзлоумышленникам атаковать пользователей.</p>
+                          <small class="text-muted text-muted">14 Feb 09:18 <small class="mx-1 align-text-top">•</small> Planet Today <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/3006457459155199369.html" class="text-muted stretched-link">3006457459155199369.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">У команды Mercedes два резервных пилота</h5>
+                    <p class="card-text text-muted">14 Feb 11:50 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse25">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse25">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">У команды Mercedes два резервных пилота</h5>
+                          <p class="mb-1 text-truncate-4">У команды Формулы 1 Mercedes в сезоне 2020 года будет два резервных пилота – эту роль поделят между собой Эстебан Гутьеррес и Стоффель Вандорн. Гутьеррес</p>
+                          <small class="text-muted text-muted">14 Feb 11:50 <small class="mx-1 align-text-top">•</small> EURO.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/6352910114486873245.html" class="text-muted stretched-link">6352910114486873245.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">У команды Mercedes два резервных пилота</h5>
+                          <p class="mb-1 text-truncate-4">У команды Формулы 1 Mercedes в сезоне 2020 года будет два резервных пилота – эту роль будут делить между собой Эстебан Гутьеррес и Стоффель Вандорн.</p>
+                          <small class="text-muted text-muted">14 Feb 11:04 <small class="mx-1 align-text-top">•</small> www.f1news.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/5775373345085231305.html" class="text-muted stretched-link">5775373345085231305.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Лобовое ДТП во Владивостоке блокировало движение</h5>
+                    <p class="card-text text-muted">14 Feb 11:38 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse26">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse26">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Лобовое ДТП во Владивостоке блокировало движение</h5>
+                          <p class="mb-1 text-truncate-4">На месте происшествия работаю сотрудники ГИБДД</p>
+                          <small class="text-muted text-muted">14 Feb 11:38 <small class="mx-1 align-text-top">•</small> Приморье 24 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/1211837496909330426.html" class="text-muted stretched-link">1211837496909330426.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Лобовое ДТП во Владивостоке блокировало движение</h5>
+                          <p class="mb-1 text-truncate-4">Во Владивостоке на улице Днепровская произошло лобовое дорожно-транспортное происшествие, сообщает РИА VladNews.</p>
+                          <small class="text-muted text-muted">14 Feb 10:38 <small class="mx-1 align-text-top">•</small> VladNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6104713679128543638.html" class="text-muted stretched-link">6104713679128543638.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Рыбаки в Приморье сплоченно вытащили из моря «утопленника»</h5>
+                    <p class="card-text text-muted">14 Feb 11:24 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse27">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse27">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Рыбаки в Приморье сплоченно вытащили из моря «утопленника»</h5>
+                          <p class="mb-1 text-truncate-4">Автомобиль провалился под лед в районе Тавричанки (видео)</p>
+                          <small class="text-muted text-muted">14 Feb 11:24 <small class="mx-1 align-text-top">•</small> Приморье 24 <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/1211837497114287529.html" class="text-muted stretched-link">1211837497114287529.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Рыбаки в Приморье сплоченно вытащили из моря «утопленника»</h5>
+                          <p class="mb-1 text-truncate-4">Автомобиль провалился под лед в районе Тавричанки (видео)</p>
+                          <small class="text-muted text-muted">14 Feb 10:24 <small class="mx-1 align-text-top">•</small> VladNews <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/6104713678537510596.html" class="text-muted stretched-link">6104713678537510596.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Более 500 популярных расширений для&nbsp;Google Chrome крали личные данные пользователей</h5>
+                    <p class="card-text text-muted">14 Feb 11:23 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse28">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse28">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Более 500 популярных расширений для&nbsp;Google Chrome крали личные данные пользователей</h5>
+                          <p class="mb-1 text-truncate-4">Эксперты по кибербезопасности Duo Security&nbsp;обнаружили в Chrome Web Store более 500 опасных расширений для браузера Google Chrome. Расширения, которые скачали миллионы пользователей, тайно загружали историю просмотров веб-страниц на серверы злоумышленников. Telegram-канал создателя Трешбокса про&nbsp;технологии Сначала исследователи нашли 71 вредоносное расширение в Google Web Store, которые были установлены в общей сложности более 1,7 млн раз. Они сообщили об этом в&nbsp;Google, после чего совместно с интернет-гигантом&nbsp;были обнаружены и удалены&nbsp;ещё 430 подозрительных расширений, которые использовались для мошенничества с рекламой. Опасные расширения отслеживали историю посещений без ведома пользователей и направляли эти данные на сервера злоумышленников, чтобы потом использовать их в рекламных целях. И хотя каждый из 500 плагинов казался разным, у них всех был практически идентичный исходный код.&nbsp;Они&nbsp;перенаправляли пользователей на сайты рекламодателей. И хотя в большинстве случаев это была качественная реклама, например…</p>
+                          <small class="text-muted text-muted">14 Feb 11:23 <small class="mx-1 align-text-top">•</small> Трешбокс.ру <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/8224118664374756086.html" class="text-muted stretched-link">8224118664374756086.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Google удалил более 500 вредоносных расширений из Chrome Web Store</h5>
+                          <p class="mb-1 text-truncate-4">Google удалил более 500 вредоносных расширений из своего официального магазина приложений Chrome Web Store. Это было сделано после того, как компания ознакомилась с результатами... #GoogleChrome</p>
+                          <small class="text-muted text-muted">14 Feb 08:43 <small class="mx-1 align-text-top">•</small> Searchengines.ru <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/08/4925441004864797848.html" class="text-muted stretched-link">4925441004864797848.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Скидки: Samsung Galaxy Buds за 6799 рублей</h5>
+                    <p class="card-text text-muted">14 Feb 11:08 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse29">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse29">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Скидки: Samsung Galaxy Buds за 6799 рублей</h5>
+                          <p class="mb-1 text-truncate-4">На презентации Samsung Galaxy Unpacked 2020 представили Galaxy Buds+. Мы уже рассказывали, чем они отличаются от первой версии:</p>
+                          <small class="text-muted text-muted">14 Feb 11:08 <small class="mx-1 align-text-top">•</small> Wylsacom <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/11/521040203860312198.html" class="text-muted stretched-link">521040203860312198.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Цена дня: беспроводные наушники Samsung Galaxy Buds за 6&nbsp;799 рублей</h5>
+                          <p class="mb-1 text-truncate-4">Отличный подарок на 14 февраля.</p>
+                          <small class="text-muted text-muted">14 Feb 09:45 <small class="mx-1 align-text-top">•</small> Лайфхакер <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/6098986206597994579.html" class="text-muted stretched-link">6098986206597994579.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Citroen Berlingo стал победителем в номинации «Минивен Года 2020» в Украине</h5>
+                    <p class="card-text text-muted">14 Feb 10:59 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse30">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse30">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Citroen Berlingo стал победителем в номинации «Минивен Года 2020» в Украине</h5>
+                          <p class="mb-1 text-truncate-4">Семейный минивен CITROЁN Berlingo стал победителем в номинации «Минивен Года 2020» национальной премии «Авто Года 2020 в Украине». Голосование проводилось среди автолюбителей и профессионального жюри, которые предпочли Citroen Berlingo в сегменте компактных универсальных автомобилей для отдыха и бизнеса – в сегменте, который создал первый CITROЁN Berlingo 22 года назад.</p>
+                          <small class="text-muted text-muted">14 Feb 10:59 <small class="mx-1 align-text-top">•</small> autoconsulting.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/8434823274383265645.html" class="text-muted stretched-link">8434823274383265645.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Citroen Berlingo – победитель в номинации «Минивен Года 2020»</h5>
+                          <p class="mb-1 text-truncate-4">Семейный минивен CITROЁN Berlingo стал победителем в номинации «Минивен Года 2020» национальной премии «Авто Года 2020 в Украине». Голосование проводилось среди автолюбителей и профессионального жюри, которые предпочли Citroen Berlingo в сегменте компактных универсальных автомобилей для отдыха и бизнеса – в сегменте, который создал первый CITROЁN Berlingo 22 года назад. По результатам голосования в национальной премии «Авто Года 2020 в Украине» CITROЁN Berlingo стал абсолютным победителем в своем классе и получил титул «Минивен Года 2020». Berlingo – модель-эталон, название которой в некоторых странах стало нарицательным, обозначая весь сегмент. Так же модель уже завоевала звание «Лучшая автомобильная покупка в Европе» по версии международной премии AUTOBEST в 2018 году. И теперь победа в номинации «Минивен Года 2020» подтверждает признание автомобиля в Украине. CITROЁN Berlingo оснащается самыми современными двигателями и КПП; дизельными 1.6 HDi 92 л.с. МКПП и 1.5 BlueHDi 130 л.с. с 8-ст. АКПП японской компании…</p>
+                          <small class="text-muted text-muted">14 Feb 10:05 <small class="mx-1 align-text-top">•</small> Автоцентр <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/3122742779909419893.html" class="text-muted stretched-link">3122742779909419893.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">В&nbsp;Терновке разбилась полицейская машина. ФОТО</h5>
+                    <p class="card-text text-muted">14 Feb 10:58 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse31">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse31">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В&nbsp;Терновке разбилась полицейская машина. ФОТО</h5>
+                          <p class="mb-1 text-truncate-4">Пензенец в&nbsp;Сети рассказал о&nbsp;необычной аварии, которая произошла утром 14&nbsp;февраля в&nbsp;Терновке.</p>
+                          <small class="text-muted text-muted">14 Feb 10:58 <small class="mx-1 align-text-top">•</small> Пенза-пресс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/3933105862112058405.html" class="text-muted stretched-link">3933105862112058405.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">В&nbsp;центре Пензы кроссовер воткнулся в&nbsp;отбойник</h5>
+                          <p class="mb-1 text-truncate-4">В&nbsp;Пензе на&nbsp;Толстовском путепроводе утром 14&nbsp;февраля произошла авария. Об&nbsp;этом стало известно из&nbsp;Сети.</p>
+                          <small class="text-muted text-muted">14 Feb 09:51 <small class="mx-1 align-text-top">•</small> Пенза-пресс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/3933105860759003350.html" class="text-muted stretched-link">3933105860759003350.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Австралийский стоматолог заявил о потере дохода из-за отзыва в Google. Суд обязал компанию раскрыть данные автора</h5>
+                    <p class="card-text text-muted">14 Feb 10:38 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse32">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse32">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Австралийский стоматолог заявил о потере дохода из-за отзыва в Google. Суд обязал компанию раскрыть данные автора</h5>
+                          <p class="mb-1 text-truncate-4">Стоматолог хочет подать в суд на автора отзыва.</p>
+                          <small class="text-muted text-muted">14 Feb 10:38 <small class="mx-1 align-text-top">•</small> TJ <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/2487322188533476748.html" class="text-muted stretched-link">2487322188533476748.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Суд в Австралии обязал Google раскрыть данные автора плохого отзыва о враче</h5>
+                          <p class="mb-1 text-truncate-4">Федеральный суд Австралии обязал Google предоставить данные человека, который оставил негативный отзыв о стоматологе из Мельбурна, и теперь врач тоже собирается с ним судиться. Об этом сообщает The Guardian.</p>
+                          <small class="text-muted text-muted">14 Feb 09:25 <small class="mx-1 align-text-top">•</small> Телеканал Дождь <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/8165161898425697188.html" class="text-muted stretched-link">8165161898425697188.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Aurus будет выпускать и мотоциклы</h5>
+                    <p class="card-text text-muted">14 Feb 10:32 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse33">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse33">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Aurus будет выпускать и мотоциклы</h5>
+                          <p class="mb-1 text-truncate-4"></p>
+                          <small class="text-muted text-muted">14 Feb 10:32 <small class="mx-1 align-text-top">•</small> Вінницький бізнес портал "Vinbazar.com" <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/3817100477482423665.html" class="text-muted stretched-link">3817100477482423665.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Aurus будет выпускать и мотоциклы</h5>
+                          <p class="mb-1 text-truncate-4">В планах Aurus - запуск производства полностью электрических мотоциклов. Ожидается, что серийная сборка начнется в 2022-2023 году, вместе с продажами.</p>
+                          <small class="text-muted text-muted">14 Feb 10:17 <small class="mx-1 align-text-top">•</small> autoconsulting.com.ua <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/10/8434823274935467449.html" class="text-muted stretched-link">8434823274935467449.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 thread">
+            <div class="card h-100 overflow-hidden shadow-sm">
+              <div class="row no-gutters h-100">
+                <div class="col d-flex flex-column">
+                  <div class="card-body rounded-top position-relative">
+                    <h5 class="card-title mb-1">Выгодные предложения от "ДО-КАР" ко Дню всех влюблённых</h5>
+                    <p class="card-text text-muted">14 Feb 09:03 <small class="mx-1 align-text-top">•</small> <a class="text-muted stretched-link" data-toggle="collapse" href="https://entry1228-dcround1.usercontent.dev/20200214/ru/technology/#collapse34">2  articles</a></p>
+                  </div>
+                  <div class="collapse border-top" id="collapse34">
+                    <div class="list-group list-group-flush">
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Выгодные предложения от "ДО-КАР" ко Дню всех влюблённых</h5>
+                          <p class="mb-1 text-truncate-4">Отличные предложения на покупку одних из самых популярных автомобилей: KIA Sportage, KIA Optima и KIA Sorento Prime</p>
+                          <small class="text-muted text-muted">14 Feb 09:03 <small class="mx-1 align-text-top">•</small> Клопс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/5625063980306239478.html" class="text-muted stretched-link">5625063980306239478.html</a></small>
+                        </div>
+                        <div href="" class="list-group-item position-relative overflow-hidden">
+                          <h5 class="mb-1">Выгодные предложения от "ДО-КАР" ко Дню всех влюблённых</h5>
+                          <p class="mb-1 text-truncate-4">Отличные предложения на покупку одних из самых популярных автомобилей: KIA Sportage, KIA Optima и KIA Sorento Prime</p>
+                          <small class="text-muted text-muted">14 Feb 09:03 <small class="mx-1 align-text-top">•</small> Клопс <small class="mx-1 align-text-top">•</small> <a href="https://data-static.usercontent.dev/sampledata/20200214/09/5625063980124521550.html" class="text-muted stretched-link">5625063980124521550.html</a></small>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-flex w-100 mb-4 justify-content-end">
+
+        </div>
+
+      </div>
+    </main>
+
+  
+</body></html>
