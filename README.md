@@ -2,6 +2,10 @@
 
 *by [Andy](https://github.com/Andy671) and [Nikita](https://github.com/nick-baliesnyi)*
 
+## Demo
+
+[https://nick-baliesnyi.github.io/tgnews](https://nick-baliesnyi.github.io/tgnews)
+
 ### Solution commentary
 
 Our solutions to tasks 1, 2, 3 are based on supervised learning using *fasttext*
