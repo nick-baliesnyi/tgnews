@@ -1,10 +1,17 @@
 # Telegram Data Clustering Contest Submission
 
-*by [Andy](https://github.com/Andy671) and [Nikita](https://github.com/nick-baliesnyi)*
+*by Kooky Dragon ([Andy](https://github.com/Andy671) and [Nikita](https://github.com/nick-baliesnyi))*
 
 ## Demo
 
 [https://nick-baliesnyi.github.io/tgnews](https://nick-baliesnyi.github.io/tgnews)
+
+![](demo.png)
+
+## Description
+
+The task of the contest was to create a command-line application for classifying and sorting news articles. See more details on the [official contest page](https://contest.com/data-clustering).
+
 
 ### Solution commentary
 
