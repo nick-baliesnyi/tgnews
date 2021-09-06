@@ -4,7 +4,7 @@
 
 ## Demo
 
-[https://nick-baliesnyi.github.io/tgnews](https://nick-baliesnyi.github.io/tgnews)
+[https://nikebless.github.io/tgnews](https://nikebless.github.io/tgnews)
 
 ![](demo.png)
 
