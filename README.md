@@ -1,10 +1,10 @@
 # Telegram Data Clustering Contest Submission
 
-*by Kooky Dragon ([Andy](https://github.com/Andy671) and [Nikita](https://github.com/nick-baliesnyi))*
+*by Kooky Dragon ([Andy](https://github.com/Andy671) and [Mikita](https://github.com/mbalesni))*
 
 ## Demo
 
-[https://nikebless.github.io/tgnews](https://nikebless.github.io/tgnews)
+[https://mbalesni.github.io/tgnews](https://mbalesni.github.io/tgnews)
 
 ![](demo.png)
 
