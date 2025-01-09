@@ -26,3 +26,4 @@ Our solutions to task 4 and 5 are using *DBSCAN* from scikit-learn.
 ___
 
 It was our first experience with NLP, so this contest was rather challenging for us. However, we had A LOT of fun! Thank you for this opportunity ;)
+This line was appended by an automated script.
